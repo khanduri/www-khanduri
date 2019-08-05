@@ -1,0 +1,228 @@
+{
+   "navigation": [
+      "about", "learn", "experience", "education", "activities", "contact"
+   ],
+   "about": [
+      {
+         "type": "text",
+         "content": "Hi there! I'm Puneet Khanduri"
+      },
+      {
+         "type": "list",
+         "title": "I have done a ton of different things and 'full-stack' means something different to me than most other folks.",
+         "content": [
+            "I started with designing parts of microprocessors",
+            "then multi-chip modules using advanced interconnect technologies,",
+            "shared memory systems spanning entire datacenters,",
+            "custom networking protocols,",
+            "embedded applications for small footprint JVMs,",
+            "mobile and web applications,",
+            "large scale distributed systems,",
+            "libraries and tools used by engineers across the world,",
+            "and machine learning."
+         ]
+      }
+   ],
+   "learn":{
+      "current":{
+         "languages":[
+            [ "java", 90 ],
+            [ "scala", 90 ],
+            [ "python", 70]
+         ],
+         "tools":[
+            [ "vim", 90 ],
+            [ "shell-scripting", 90 ],
+            [ "IntelliJ", 90 ]
+         ],
+         "frameworks":[
+            [ "finagle", 90 ],
+            [ "finatra", 90 ],
+            [ "spring", 80 ],
+            [ "tensorflow", 70]
+         ]
+      },
+      "past":{
+         "languages":[
+            [ "C / C++", 70 ],
+            [ "Scheme/Lisp", 80]
+         ],
+         "tools":[
+            [ "eclipse", 90 ]
+         ],
+         "frameworks":[
+            [ "android", 70 ],
+            [ "iOS", 50 ],
+            [ "cuda", 60]
+         ]
+      }
+   },
+   "profile":{
+      "name":{
+         "first": "Puneet",
+         "last": "Khanduri"
+      },
+      "desc":{
+         "first": "Programmer, Entrepreneur, Mentor",
+         "second": "Currently in San Francisco, CA"
+      }
+   },
+   "activities":{
+      "projects":[
+         {
+            "name":"Moviehop: Minimize wait time betweem back-to-back shows at the movies",
+            "keywords": ["scala", "anorm", "movies"],
+            "link":""
+         },
+         {
+            "name":"Okaaru: A predecessor to Klout that showed influence scores of you facebook network",
+            "keywords": ["centrality", "betweenness", "consumer apps"],
+            "link":""
+         }
+      ],
+      "groups":[
+         {
+            "name":"Bay Area Waterloo Alumni Network",
+            "link":"https://www.facebook.com/uwaterloosf/"
+         }
+      ],
+      "hobbies":[
+         {
+            "name":"Skiing",
+            "link":""
+         },
+         {
+            "name":"Motorcycles",
+            "link":""
+         }
+      ]
+   },
+   "contact":{
+      "github":"puneetkhanduri",
+      "twitter":"pzdk",
+      "linkedin":"puneetkhanduri",
+      "facebook":"khanduri.puneet"
+   },
+   "education":{
+      "institutes":[
+         {
+            "title":"Stanford University",
+            "link": "https://www.gsb.stanford.edu/",
+            "loc":"Stanford, CA",
+            "course":"Graduate School of Business: Executive Education",
+            "desc":"",
+            "dates":"2010 – 2010"
+         },
+         {
+            "title":"Massachusetts Institute of Technology",
+            "link": "http://web.mit.edu/",
+            "loc":"Cambridge, MA",
+            "course":"Visiting Researcher: Computer Science & AI Lab",
+            "desc":"Worked on supercomputers and JVM performance alongside PhD students",
+            "dates":"2006 - 2006"
+         },
+         {
+            "title":"University of Waterloo",
+            "link": "https://uwaterloo.ca/electrical-computer-engineering/",
+            "loc":"Ontario, Canada",
+            "course":"Bachelor in Applied Science – Computer Engineering (Honors)",
+            "desc":"5-year program with 2 years of integrated work experience over 6 internships and no breaks",
+            "dates":"2002 - 2007"
+         },
+         {
+            "title":"Indian Institute of Technology, Delhi",
+            "link":"http://www.iitd.ac.in/",
+            "loc":"Delhi, India",
+            "course":"Civil Engineering",
+            "desc":"I spent my first year of engineering here as it was common among all the branches before transferring out to Canada."
+         }
+      ]
+   },
+   "experience":[
+      {
+         "fa_class":"fa-spin fa-th-large",
+         "title":"Diffy",
+         "link": "https://github.com/twitter/diffy",
+         "loc":"San Fransisco, CA / New Delhi, India",
+         "dates":"2018 - current",
+         "position":"Co-Founder / CEO",
+         "body":[
+            {
+               "team_desc":"An open source tool that allows developers to catch bugs before they are pushed to production",
+               "duties":[
+                  "Customers. Customers. Customers. More detail coming soon ..."
+               ]
+            }
+         ]
+      },
+      {
+         "fa_class":"fa-twitter",
+         "title":"Twitter",
+         "link": "https://twitter.com/",
+         "loc":"San Fransisco, CA",
+         "dates":"2013 - 2018",
+         "position":"Engineering Lead - Multiple teams",
+         "body":[
+            {
+               "team_name":"Machine Learning & AI Services Lead - Cortex",
+               "team_desc":"Lead the development of machine learning infrastructure and AI services at Twitter",
+               "duties":[
+               ]
+            },
+            {
+               "team_name":"Engineering Head - Twitter India",
+               "team_desc":"Lead a stealth effort mandated directly by the CEO and his staff",
+               "duties":[
+                  "Ensured rapid iterations and aggressive delivery cadence across Engineering, Product, & Design",
+                  "Enabled 8 user studies for 8 different products within a span of 8 months",
+                  "Built an exemplary team with high standards for team work, quality, and velocity"
+               ]
+            },
+            {
+               "team_name":"Staff Engineer & Tech Lead - Effectiveness Frameworks",
+               "team_desc":"Built backend services and software reliability frameworks as a part of the Engineering Effectiveness group at Twitter",
+               "duties":[
+               ]
+            }
+         ]
+      },
+      {
+         "fa_class":"fa-database",
+         "title":"Oracle",
+         "link": "https://www.oracle.com/",
+         "loc":"Redwood Shores, California",
+         "dates":"2010 - 2012",
+         "position":"Senior Software Engineer / Product Manager",
+         "body":[
+            {
+               "team_name":"Container tracking and monitoring",
+               "team_desc":"Served as product manager and software engineer for an satellite-enabled tracking and sensor-based monitoring solution. This required building an extensible web-application that allowed customers to visualize real-time sensor data from multiple devices and analyze historical data by integrating a variety of Oracle products including Oracle Spatial Analytics, Business Intelligence, and Complex Event Processing",
+               "duties":[
+                  "Identification and engagement of customers and potential partner groups and account managers within Oracle",
+                  "Organizing customer demos - was a speaker at Oracle Openworld 2011",
+                  "Developing a real-time asset tracking and monitoring solution using wireless sensor devices"
+               ]
+            }
+         ]
+      },
+      {
+         "fa_class":"fa-sitemap",
+         "title":"Sun Microsystems",
+         "link": "https://www.oracle.com/",
+         "loc":"Menlo Park, CA",
+         "dates":"2007 - 2010",
+         "position":"Senior Hardware Engineer",
+         "body":[
+            {
+               "team_name":"Sun Labs",
+               "team_desc":"Designed data-center switches and network architectures",
+               "duties":[
+                  "Used instruction-level application tracing and trace-driven simulations to estimate application performance",
+                  "Authored four technical reports and one refereed conference paper as lead author",
+                  "Received a patent on a novel switch design"
+               ]
+            }
+         ]
+      }
+   ]
+}
