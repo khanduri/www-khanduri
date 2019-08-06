@@ -2,15 +2,17 @@ import React from "react";
 import About from "../components/about";
 import Learn from "../components/learn";
 import Experience from "../components/experience";
+import Education from "../components/education";
 
 import PageLayout from "../common/layout";
 
 
 export default () => (
   <PageLayout>
-    <About background_density={"high"}/>
+    <About background_density={"low"}/>
     <Learn />
     <Experience />
+    <Education />
     <About background_density={"low"}/>
     <About background_density={"low"}/>
     <About />

@@ -83,7 +83,7 @@ export default function LearnComponent(props){
     rows.push(<ProgressDisplayComponent key={'past_interest'} items={past} title={"In the Past"}/>);
 
     return (
-      <section className="content-section">
+      <section className="content-section highlight-secondary-4">
         <div className="py-3">
             <div className="container">
               {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }

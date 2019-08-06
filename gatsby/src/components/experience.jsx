@@ -199,9 +199,7 @@ function ExperienceDisplayComponent(props){
             <div className="timeline-location">{ work.loc }</div>
             <div className="timeline-dates">{ work.dates }</div>
             <div className="timeline-position"><b>{ work.position }</b></div>
-
             { rows }
-
           </div>
         </div>
       </li>
@@ -221,7 +219,7 @@ export default function ExperienceComponent(props){
       <section className="content-section">
         <div className="py-3">
             <div className="container">
-              {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }
+            {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }
               
               <h2 className="text-center">Experience</h2>
               <ul className="timeline">

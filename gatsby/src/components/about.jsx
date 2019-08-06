@@ -63,7 +63,7 @@ export default function AboutComponent(props) {
     const about = PRASHANT_ABOUT;
 
     return (
-        <section className="content-section bg-light">
+        <section className="content-section  highlight-secondary-9">
           <div className="py-3">
             <div className="container text-white">
               {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }
