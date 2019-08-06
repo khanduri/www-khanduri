@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundPolygonComponent from "../components/background_polygon";
+import BackgroundPolygonComponent from "../reuse/background_polygon";
 
 
 const PRASHANT_ABOUT = [
@@ -34,7 +34,7 @@ function AboutComponentItem(props){
   var aboutItem = props.items;
 
   if (aboutItem.type == "text"){
-    return (<div className="mx-4 my-4 text-size-2" dangerouslySetInnerHTML={{__html: aboutItem.content }}></div>)
+    return (<div className="mx-4 my-4 text-size-2 text-wide-2" dangerouslySetInnerHTML={{__html: aboutItem.content }}></div>)
   }
 
   if (aboutItem.type == "list"){

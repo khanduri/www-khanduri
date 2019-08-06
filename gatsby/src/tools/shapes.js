@@ -5,7 +5,6 @@ const _default_black = '#333';
 const _default_fill = "none";
 
 
-
 export function Polygon(props){
 
   const scale = props.scale || 0.4;

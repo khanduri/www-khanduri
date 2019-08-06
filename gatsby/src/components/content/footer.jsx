@@ -1,6 +1,6 @@
 import React from "react";
-import BackgroundPolygonComponent from "../components/background_polygon";
-import Social from '../components/social';
+import BackgroundPolygonComponent from "../reuse/background_polygon";
+import Social from '../reuse/social';
 
 const PRASHANT_PROFILE = {
   "name":{

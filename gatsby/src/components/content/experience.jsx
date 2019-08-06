@@ -1,12 +1,12 @@
 import React from "react";
-import BackgroundPolygonComponent from "../components/background_polygon";
+import BackgroundPolygonComponent from "../reuse/background_polygon";
 
 
 const PRASHANT_EXPERIENCE = [
   {
      "fa_class":"fa fa-spin fa-th-large",
-     "title":"Diffy",
-     "link": "https://github.com/twitter/diffy",
+     "title": "Diffy",
+     "link": "https://github.com/opendiffy/diffy",
      "loc":"San Fransisco, CA / NCR, India",
      "dates":"2018 - current",
      "position":"Co-Founder / CTO",

@@ -1,12 +1,12 @@
 import React from "react";
-import About from "../components/about";
-import Learn from "../components/learn";
-import Experience from "../components/experience";
-import Education from "../components/education";
-import Activities from "../components/projects";
-import Hero from "../components/hero";
-import Footer from "../components/footer";
-import Navigation from "../components/navigation";
+import About from "../components/content/about";
+import Learn from "../components/content/learn";
+import Experience from "../components/content/experience";
+import Education from "../components/content/education";
+import Activities from "../components/content/projects";
+import Hero from "../components/content/hero";
+import Footer from "../components/content/footer";
+import Navigation from "../components/content/navigation";
 
 import PageLayout from "../common/layout";
 

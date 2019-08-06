@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundPolygonComponent from "../components/background_polygon";
+import BackgroundPolygonComponent from "../reuse/background_polygon";
 
 
 const PRASHANT_EDUCATION = {

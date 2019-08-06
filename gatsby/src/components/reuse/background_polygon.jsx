@@ -1,10 +1,10 @@
 import React from "react";
-import {Polygon, Circle, Cross, Rect, Ellipse} from '../tools/shapes';
+import {Polygon, Circle, Cross, Rect, Ellipse} from '../../tools/shapes';
 
-import {UpDown, UpDownWide, AnimationBounce, AnimationRect, AnimationVisible, AnimationSpin} from '../tools/animations';
+import {UpDown, UpDownWide, AnimationBounce, AnimationRect, AnimationVisible, AnimationSpin} from '../../tools/animations';
 
 
-import './sample.css';
+import './background_polygon.css';
 
 
 // dense - colour - animation - thick
