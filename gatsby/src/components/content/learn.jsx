@@ -1,50 +1,7 @@
 import React from "react";
 import BackgroundPolygonComponent from "../reuse/background_polygon";
+import { LEARN } from "../constants/prashant";
 
-
-const PRASHANT_LEARN = {
-  "current":{
-     "languages":[
-        [ "javascript", 80 ],
-        [ "python", 90 ]
-     ],
-     "tools":[
-        [ "vim", 90 ],
-        [ "visual code", 70 ],
-        [ "shell-scripting", 90 ]
-     ],
-     "frameworks":[
-        [ "gatsby", 70 ],
-        [ "react", 60 ],
-        [ "react native", 60 ],
-        [ "flask", 80 ]
-     ]
-  },
-  "past":{
-     "languages":[
-        [ "C#", 70 ],
-        [ "Java ", 70 ],
-        [ "PHP", 50 ],
-        [ "Perl", 40 ],
-        [ "C / C++ ", 70 ],
-        [ "Self", 60 ],
-        [ "objective-c", 60 ]
-     ],
-     "tools":[
-        [ "eclipse", 60 ],
-        [ "x-code", 60 ],
-        [ "visual-studio", 80 ]
-     ],
-     "frameworks":[
-        [ "django", 80 ],
-        [ "angular", 60 ],
-        [ "yeoman", 60 ],
-        [ "code-igniter", 50 ],
-        [ "cake-php", 40 ],
-        [ "mason", 50 ]
-     ]
-  }
-}
 
 function ProgressDisplayComponent(props){
     var title = props.title;
@@ -76,10 +33,10 @@ function ProgressDisplayComponent(props){
 export default function LearnComponent(props){
     var rows = [];
 
-    var current = PRASHANT_LEARN.current;
+    var current = LEARN.current;
     rows.push(<ProgressDisplayComponent key={"current_interest"} items={current} title={"Current interest"}/>);
 
-    var past = PRASHANT_LEARN.past;
+    var past = LEARN.past;
     rows.push(<ProgressDisplayComponent key={'past_interest'} items={past} title={"In the Past"}/>);
 
     return (

@@ -1,27 +1,7 @@
 import React from "react";
 import BackgroundPolygonComponent from "../reuse/background_polygon";
+import { EDUCATION } from "../constants/prashant";
 
-
-const PRASHANT_EDUCATION = {
-  "institutes":[
-     {
-        "title":"University of Southern California",
-        "link": "https://viterbischool.usc.edu/",
-        "loc":"Los Angeles, CA",
-        "course":"Masters in Computer Science",
-        "desc":"Specialization in Human Language technology (Applied Artificial Intelligence)",
-        "dates":"2008 - 2009"
-     },
-     {
-        "title":"University of Waterloo",
-        "link": "https://uwaterloo.ca/electrical-computer-engineering/",
-        "loc":"Ontario, Canada",
-        "course":"Bachelor in Applied Science – Computer Engineering (Honors)",
-        "desc":"Option in Software Engineering",
-        "dates":"2003 - 2008"
-     }
-  ]
-}
 
 function EducationDisplayComponent(props){
   
@@ -46,7 +26,7 @@ function EducationDisplayComponent(props){
 export default function EducationComponent(props){
     var rows = [];
 
-    var education = PRASHANT_EDUCATION;
+    var education = EDUCATION;
     education.institutes.map(function(institute, i){
       rows.push(<EducationDisplayComponent items={institute} key={"institution_" + i}/>);
     });

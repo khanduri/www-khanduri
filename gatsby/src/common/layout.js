@@ -4,7 +4,7 @@ import Helmet from'react-helmet';
 
 export default function ContentLayout(props) {
   return (
-    <div className="page-container">
+    <div id="top" className="page-container">
       
       {/* <PageTitle title={props.title} /> */}
 

@@ -1,8 +1,9 @@
 import React from "react";
+import { NAVIGATION } from "../constants/prashant";
 
 
 export default function NavigationComponent(props){
-  var navigation = [ "about", "learn", "experience", "projects", "education"];
+  var navigation = NAVIGATION;
 
   var rows = [];
   navigation.map(function(section, i){
@@ -12,9 +13,9 @@ export default function NavigationComponent(props){
   });
 
   return (
-    <section className="navigation sticky-top">
+    <section id="nav" className="navigation sticky-top">
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a className="navbar-brand" href="#"><i className="fa fa-home mr-2"></i>HOME</a>
+        <a className="navbar-brand" href="#top"><i className="fa fa-home mr-2"></i>HOME</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

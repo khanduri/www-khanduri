@@ -1,26 +1,11 @@
 import React from "react";
 import BackgroundPolygonComponent from "../reuse/background_polygon";
 import Social from '../reuse/social';
+import { PROFILE } from "../constants/prashant";
 
-const PRASHANT_PROFILE = {
-  "name":{
-     "first":"Prashant",
-     "last":"Khanduri"
-  },
-  "desc":{
-     "first":"Solutions Architect - Runner - Tennis Enthusiast",
-     "second":"Currently in New Delhi, India"
-  },
-  "contact":{
-    "github":"khanduri",
-    "twitter":"khandurip",
-    "linkedin":"prashantkhanduri",
-    "facebook":"prashant.khanduri"
- }
-}
 
 export default function FooterComponent(props){
-  const profile = PRASHANT_PROFILE;
+  const profile = PROFILE;
   const contact = profile.contact;
 
   return (

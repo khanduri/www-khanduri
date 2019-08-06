@@ -1,29 +1,13 @@
 import React from "react";
 import Social from '../reuse/social';
+import { PROFILE } from "../constants/prashant";
 
-
-const PRASHANT_PROFILE = {
-  "name":{
-     "first":"Prashant",
-     "last":"Khanduri"
-  },
-  "desc":{
-     "first":"Solutions Architect - Runner - Tennis Enthusiast",
-     "second":"Currently in New Delhi, India"
-  },
-  "contact":{
-    "github":"khanduri",
-    "twitter":"khandurip",
-    "linkedin":"prashantkhanduri",
-    "facebook":"prashant.khanduri"
- }
-}
 
 export default function HeroComponent(props){
-  var profile = PRASHANT_PROFILE;
+  var profile = PROFILE;
 
     return (
-      <div className="landing-container">
+      <div id="hero" className="landing-container">
 
         <div className="container">
           <div className="row">
