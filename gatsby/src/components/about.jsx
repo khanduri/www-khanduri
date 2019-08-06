@@ -1,4 +1,5 @@
 import React from "react";
+import BackgroundPolygonComponent from "../components/background_polygon";
 
 
 const PRASHANT_ABOUT = [
@@ -33,20 +34,20 @@ function AboutComponentItem(props){
   var aboutItem = props.items;
 
   if (aboutItem.type == "text"){
-    return (<div className="about-item" dangerouslySetInnerHTML={{__html: aboutItem.content }}></div>)
+    return (<div className="mx-4 my-2" dangerouslySetInnerHTML={{__html: aboutItem.content }}></div>)
   }
 
   if (aboutItem.type == "list"){
     var rows = [];
 
     aboutItem.content.map(function(listItem, i){
-      rows.push(<li key={'about_list_item_'+i} ><div className="about-item" dangerouslySetInnerHTML={{__html: listItem }}></div></li>);
+      rows.push(<li key={'about_list_item_'+i} ><div className="" dangerouslySetInnerHTML={{__html: listItem }}></div></li>);
     });
 
     return (
         <div>
-          <div className="about-list-title" dangerouslySetInnerHTML={{__html: aboutItem.title }}></div>
-          <ul className="about-ul">
+          <div className="" dangerouslySetInnerHTML={{__html: aboutItem.title }}></div>
+          <ul className="">
             {rows}
           </ul>
         </div>
@@ -62,9 +63,10 @@ export default function AboutComponent(props) {
     const about = PRASHANT_ABOUT;
 
     return (
-        <section className="content-section text-center about">
-          <div className="row">
-            <div className="col-lg-8 col-lg-offset-2">
+        <section className="content-section bg-light">
+          <div className="py-3">
+            <div className="container text-white">
+              {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }
               <h2>About Me</h2>
               {about.map(function(aboutItem, i){
                 return (<AboutComponentItem items={aboutItem} key={'about_item_' + i}/>)

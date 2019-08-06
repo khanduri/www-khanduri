@@ -7,7 +7,7 @@ window.$ = $;
 
 
 import './jsx/about';
-import './jsx/contact'
+import './jsx/contact';
 import './jsx/navigation';
 import './jsx/profile';
 import './jsx/projects';

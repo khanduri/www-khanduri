@@ -19,14 +19,15 @@ export function Polygon(props){
   const radius = (props.r - strokeWidth) * scale;
   const sides = props.sides;
 
-  const cx = (props.cx || radius);
-  const cy = (props.cy || radius);
+  const cx = (props.cx || radius) + (strokeWidth);
+  const cy = (props.cy || radius) + (strokeWidth);
 
   var points = [];
   for (let i = 1; i <= sides; i++) {
+    
     points.push({
-      x: cx + Math.round(radius * Math.sin((Math.PI / (sides / 2)) * i)),
-      y: cy + Math.round(radius * Math.cos((Math.PI / (sides / 2)) * i))
+      x: Math.floor(Math.max(cx + Math.round(radius * Math.sin((Math.PI / (sides / 2)) * i)), 0)),
+      y: Math.floor(Math.max(cy + Math.round(radius * Math.cos((Math.PI / (sides / 2)) * i)), 0))
     });
   }
 
@@ -35,13 +36,29 @@ export function Polygon(props){
   }, '');
 
   return (
-    <svg width={width} height={width} transform={`rotate(${rotate})`} >
-      <polygon
-        points={pointsString}
-        fill={fill}
-        stroke={stroke}
-        strokeWidth={strokeWidth}
-      />
+    <svg 
+      width={width+(strokeWidth*2)} height={width+(strokeWidth*2)} transform={`rotate(${rotate})`} top={props.top || 0} left={props.left || 0}>
+        <filter id="blur">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" />
+        </filter>
+
+        <filter id="dropShadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="0.5" />
+    <feOffset dx="1" dy="1" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
+
+        <polygon
+          shapeRendering="optimizeSpeed"
+          points={pointsString}
+          fill={fill}
+          stroke={stroke}
+          strokeWidth={strokeWidth}
+          filter="url(#blur)"
+        />
     </svg>
   );
 }
@@ -58,8 +75,9 @@ export function Cross(props){
   const width = 100; // TODO: think about how to dynamically create this shape (scale also missing)
 
   return (
-    <svg width={width} height={width} transform={`rotate(${rotate})`} >
+    <svg width={width} height={width} transform={`rotate(${rotate})`}  top={props.top || 0} left={props.left || 0}>
       <path
+        shapeRendering="optimizeSpeed"
         fill={fill}
         stroke={stroke}
         strokeWidth={strokeWidth}
@@ -85,8 +103,9 @@ export function Rect(props){
   
 
   return (
-    <svg width={width+(strokeWidth*2)} height={height+(strokeWidth*2)} transform={`rotate(${rotate})`} >
+    <svg width={width+(strokeWidth*2)} height={height+(strokeWidth*2)} transform={`rotate(${rotate})`}  top={props.top || 0} left={props.left || 0}>
       <rect 
+        shapeRendering="optimizeSpeed"
         fill={fill}
         stroke={stroke}
         strokeWidth={strokeWidth}
@@ -117,13 +136,19 @@ export function Ellipse(props){
   const cy = (props.cy + strokeWidth) * scale;
 
   return (
-    <svg width={width} height={height}>
+    <svg width={width} height={height} top={props.top || 0} left={props.left || 0}>
+        <filter id="blur">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" />
+        </filter>
+
       <ellipse
+        shapeRendering="optimizeSpeed"
         cx={cx} cy={cy} 
         rx={rx} ry={ry} 
         fill={fill}
         stroke={stroke}
         strokeWidth={strokeWidth}
+        filter="url(#blur)"
       />
     </svg>
   );
@@ -132,7 +157,7 @@ export function Ellipse(props){
 
 
 export function Circle(props){
-  const c = props.radius;
+  const c = props.radius + ((props.strokeWidth || 1) * 3);
 
   return (
     <Ellipse 
