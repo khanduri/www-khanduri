@@ -52,7 +52,7 @@ function ProgressDisplayComponent(props){
 
    return (
       <div className="=">
-        <h4 className="text-center">{title}</h4>
+        <h3 className="text-center">{title}</h3>
         <div className="row">
             { Object.keys(current).map(function(category, i){
               return (

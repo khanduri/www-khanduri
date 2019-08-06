@@ -1,12 +1,16 @@
 import React from "react";
 import About from "../components/about";
 import Learn from "../components/learn";
+import Experience from "../components/experience";
+
+import PageLayout from "../common/layout";
 
 
 export default () => (
-  <div>
+  <PageLayout>
     <About background_density={"high"}/>
     <Learn />
+    <Experience />
     <About background_density={"low"}/>
     <About background_density={"low"}/>
     <About />
@@ -16,12 +20,11 @@ export default () => (
     <About />
     <About background_density={"high"}/>
 
-    {/* <div id='about'></div>
-    <div id='learn'></div>
-    <div id='experience'></div>
+    {/* 
     <div id='education'></div>
     <div id='activities'></div>
-    <div id='contact'></div> */}
+    <div id='contact'></div> 
+    */}
 
-  </div>
+  </PageLayout>
 )
