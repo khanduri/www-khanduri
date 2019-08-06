@@ -4,12 +4,12 @@ import React from "react";
 
 
 export default function NavigationComponent(props){
-  var navigation = [ "about", "learn", "experience", "education", "projects"];
+  var navigation = [ "about", "learn", "experience", "projects", "education"];
 
   var rows = [];
   navigation.map(function(section, i){
     if (section != 'profile'){
-      rows.push(<li key={'navigation_'+i} className="nav-item "><a className="ml-2 uppercase text-wide-2" href={"#"+section}>{section}</a></li>);
+      rows.push(<li key={'navigation_'+i} className="nav-item "><a className="link-inv mx-2 uppercase text-wide-2" href={"#"+section}>{section}</a></li>);
     }
   });
 

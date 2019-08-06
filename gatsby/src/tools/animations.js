@@ -23,11 +23,11 @@ const upDownWide = keyframes`
 `
 
 const upDownAnimation = css`
-  ${upDown} 4s ease-in-out infinite alternate;
+  ${upDown} 10s ease-in-out infinite alternate;
 `
 
 const upDownWideAnimation = css`
-  ${upDownWide} 18s ease-in-out infinite alternate;
+  ${upDownWide} 30s ease-in-out infinite alternate;
 `
 
 export const UpDown = styled.div`
@@ -51,23 +51,21 @@ export const UpDownWide = styled.div`
 `
 
 
-
-
 const bounce = keyframes`
   from, 20%, 53%, 80%, to {
     transform: translate3d(0,0,0);
   }
  
   40%, 43% {
-    transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -60px, 0);
   }
  
   70% {
-    transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -30px, 0);
   }
  
   90% {
-    transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-8px,0);
   }
 `
 
@@ -101,6 +99,15 @@ const rectBorder = keyframes`
     75%  {top: 100px; left: 0px; }
     100% {top: 0px; left: 0px; }
 `
+export const AnimationRect = styled.div`
+animation: ${rectBorder} 20s ease infinite;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
+`
 
 
 const visibility = keyframes`
@@ -110,6 +117,16 @@ const visibility = keyframes`
 75%   { opacity: 0.5; }
 100% { opacity: 0; }
 `
+export const AnimationVisible = styled.div`
+animation: ${visibility} 20s ease infinite;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
+`
+
 
 const spinning = keyframes`
   from {
@@ -120,8 +137,8 @@ const spinning = keyframes`
   }
 `
 
-export const AnimationWave = styled.div`
-animation: ${spinning} 5s ease infinite;
+export const AnimationSpin = styled.div`
+animation: ${spinning} 20s ease infinite;
 position: absolute;
 top: 0;
 left: 0;

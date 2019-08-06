@@ -51,8 +51,8 @@ function ProgressDisplayComponent(props){
     var current = props.items;
 
    return (
-      <div className="=">
-        <h3 className="text-center">{title}</h3>
+      <div className="my-4">
+        <h2 className="text-center">{title}</h2>
         <div className="row">
             { Object.keys(current).map(function(category, i){
               return (
@@ -83,7 +83,7 @@ export default function LearnComponent(props){
     rows.push(<ProgressDisplayComponent key={'past_interest'} items={past} title={"In the Past"}/>);
 
     return (
-      <section id="learn" className="content-section highlight-primary-4">
+      <section id="learn" className="content-section">
         <div className="py-3">
             <div className="container">
               {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }

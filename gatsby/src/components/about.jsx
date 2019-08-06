@@ -13,11 +13,11 @@ const PRASHANT_ABOUT = [
   },
   {
      "type": "text",
-     "content": "On a day to day basis, I tell computers what to do and they seem to obey me (for the most part). I end up getting paid for <a href='#experience'>some of it</a>, the other portion ends up on a <a href='https://github.com/khanduri/''>public domain</a>"
+     "content": "On a day to day basis, I tell computers what to do and they seem to obey me (for the most part). I end up getting paid for <a class='link-inv' href='#experience'>some of it</a>, the other portion ends up on a <a class='link-inv' href='https://github.com/khanduri/''>public domain</a>"
   },
   {
      "type": "text",
-     "content": "I also <a href='http://khanduri.github.io/''>blog</a>, but I haven't really scoped out the topics I'd like to talk about. For now, I'm just using it to collect ideas that I find interesting. I hope someday a pattern will emerge"
+     "content": "I also <a class='link-inv' href='http://khanduri.github.io/''>blog</a>, but I haven't really scoped out the topics I'd like to talk about. For now, I'm just using it to collect ideas that I find interesting. I hope someday a pattern will emerge"
   },
   {
      "type": "text",
@@ -25,7 +25,7 @@ const PRASHANT_ABOUT = [
   },
   {
      "type": "text",
-     "content": "You know a lot about me now! .. <a href='#contact' className='page-scroll'>Ok your turn</a>"
+     "content": "You know a lot about me now! .. <a class='link-inv' href='#contact' className='page-scroll'>Ok your turn</a>"
   }
 ]
 
@@ -34,7 +34,7 @@ function AboutComponentItem(props){
   var aboutItem = props.items;
 
   if (aboutItem.type == "text"){
-    return (<div className="mx-4 my-2" dangerouslySetInnerHTML={{__html: aboutItem.content }}></div>)
+    return (<div className="mx-4 my-4 text-size-2" dangerouslySetInnerHTML={{__html: aboutItem.content }}></div>)
   }
 
   if (aboutItem.type == "list"){
@@ -63,7 +63,7 @@ export default function AboutComponent(props) {
     const about = PRASHANT_ABOUT;
 
     return (
-        <section id="about" className="content-section  highlight-primary-9">
+        <section id="about" className="content-section  bg-primary">
           <div className="py-3">
             <div className="container text-white">
               {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }

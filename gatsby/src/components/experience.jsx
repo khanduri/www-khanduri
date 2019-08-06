@@ -216,7 +216,7 @@ export default function ExperienceComponent(props){
     });
 
     return (
-      <section id="experience" className="content-section">
+      <section id="experience" className="content-section ">
         <div className="py-3">
             <div className="container">
             {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }

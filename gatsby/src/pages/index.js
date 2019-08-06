@@ -15,13 +15,16 @@ export default () => (
   <PageLayout>
     <Navigation />
     <div className="slant slant-bottom-left-primary"></div>
-    <Hero background_density={"medium"}/>
+    <Hero />
     <div className="slant slant-top-right-primary"></div>
-    <About background_density={"medium"}/>
+    <About />
+    <div className="slant slant-bottom-left-primary"></div>
     <Learn />
     <Experience />
-    <Education background_density={"low"}/>
+    <div className="slant slant-top-left-primary"></div>
     <Activities />
+    <div className="slant slant-bottom-right-primary"></div>
+    <Education/>
     <Footer />
   </PageLayout>
 )

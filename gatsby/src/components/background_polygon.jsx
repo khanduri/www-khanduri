@@ -1,7 +1,8 @@
 import React from "react";
 import {Polygon, Circle, Cross, Rect, Ellipse} from '../tools/shapes';
 
-import {UpDown, UpDownWide, AnimationBounce, AnimationWave} from '../tools/animations';
+import {UpDown, UpDownWide, AnimationBounce, AnimationRect, AnimationVisible, AnimationSpin} from '../tools/animations';
+
 
 import './sample.css';
 
@@ -14,8 +15,8 @@ const DENSE_MAPPING = {
     big:    [ 3, 3, 2, 1],
   },
   medium: {
-    small:  [ 6, 0, 1, 3],
-    medium: [ 2, 1, 1, 1],
+    small:  [ 6, 5, 1, 3],
+    medium: [ 2, 2, 1, 1],
     big:    [ 1, 1, 0, 1],
   },
   low: {
@@ -26,7 +27,6 @@ const DENSE_MAPPING = {
 }
 
 const COLOUR_LIST = ["#02a7fa", "#71e95f", "#f9780e", "#dd2525"];
-const ANIMATION_LIST = [AnimationWave, AnimationBounce];
 
 const SHAPE_FUNC_MAP = {
   "Polygon": _gen_polygon, 
@@ -49,6 +49,17 @@ function _gen_placement_class(){
   return "top-"+t_placement+" left-"+l_placement+" bg-shape"
 }
 
+function WrapSVGLayout(props) {
+  
+  return (
+    <div key={props.key} className={_gen_placement_class()}>
+      <UpDownWide>
+        {props.children}
+      </UpDownWide>
+    </div>
+  );
+}
+
 function _gen_polygon(key, size, colour, is_thick){
   const strokeWidth = (is_thick)? [5,6,7][Math.floor(Math.random() * 4)]: 3;
 
@@ -59,15 +70,13 @@ function _gen_polygon(key, size, colour, is_thick){
   }[size];
   
   return (
-    <div key={key} className={_gen_placement_class()}>
-      {/* <UpDownWide> */}
-        <Polygon
-          sides={Math.floor(Math.random() * 4) + 3} 
-          strokeWidth={strokeWidth} 
-          stroke={colour}
-          r={((is_thick)? 30: 40) * scale} />
-        {/* </UpDownWide> */}
-    </div>
+    <WrapSVGLayout key={key}>
+      <Polygon
+        sides={Math.floor(Math.random() * 4) + 3} 
+        strokeWidth={strokeWidth} 
+        stroke={colour}
+        r={((is_thick)? 30: 40) * scale} />
+    </WrapSVGLayout>
   );
 }
 function _gen_circle(key, size, colour, is_thick){
@@ -81,21 +90,36 @@ function _gen_circle(key, size, colour, is_thick){
     big: 7,
   }[size];
   
-
   return (
-    <div key={key} className={_gen_placement_class()}>
-      <AnimationBounce>
+    <WrapSVGLayout key={key}>
       <Circle
         strokeWidth={strokeWidth} 
         stroke={thick_colour}
         fill={thick_colour}
         radius={((is_thick)? 2: 4) * scale} />
-      </AnimationBounce>
-    </div>
+    </WrapSVGLayout>
   );
 }
 function _gen_cross(key, size, colour, is_thick){
-  return _gen_temp(key, colour);
+  
+  const strokeWidth = 20;
+
+  const thick_colour = (is_thick)? ((colour)? colour: '#333'): null;
+
+  const scale = {
+    small: 1,
+    medium: 3,
+    big: 7,
+  }[size];
+  
+  return (
+    <WrapSVGLayout key={key}>
+      <Cross
+        stroke={thick_colour}
+        fill={thick_colour}
+      />
+    </WrapSVGLayout>
+  );
 }
 function _gen_rect(key, size, colour, is_thick){
   return _gen_temp(key, colour);
@@ -107,13 +131,11 @@ function _gen_ellipse(key, size, colour, is_thick){
 function _gen_temp(key, colour){
   return (
     <div key={key} className={_gen_placement_class()}>
-      {/* <UpDownWide> */}
       <Polygon
-            sides={3} 
-            stroke={colour}
-            strokeWidth={5} 
-            r={90} />
-      {/* </UpDownWide> */}
+        sides={3} 
+        stroke={colour}
+        strokeWidth={5} 
+        r={90} />
     </div>
   )
   

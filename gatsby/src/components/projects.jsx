@@ -92,24 +92,24 @@ export default function ActivitiesComponent(props){
     var activities = PRASHANT_ACTIVITIES;
 
     return (
-      <section id="projects" className="content-section highlight-primary-4">
+      <section id="projects" className="content-section bg-primary">
         <div className="py-3">
-          <div className="container">
+          <div className="container  text-white">
             {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }
             
-            <h2 className="text-center">Projects</h2>
+            <h2 className="text-center">Activities</h2>
 
             <div className="row">
               { Object.keys(activities).map(function(category, i){
                 return (
-                  <div key={"activity_"+i} className="col-md-4"><div className="middle">{category.toUpperCase()}</div><br/>
+                  <div key={"activity_"+i} className="col-md-4"><div className="text-center">{category.toUpperCase()}</div><br/>
                     {activities[category].map(function(task, i){
                       var link = task.link;
                       var name = task.name;
                       if (link){
-                        return <div key={"activity_task_" + i} className="card border-secondary text-center m-1 p-2"><a href={""+link}>{name}</a></div>
+                        return <div key={"activity_task_" + i} className="card bg-primary border-light text-center m-1 p-2"><a className='link-inv' href={""+link}>{name}</a></div>
                       } else {
-                        return <div key={"activity_task_" + i} className="card border-secondary text-center m-1 p-2">{name}</div>
+                        return <div key={"activity_task_" + i} className="card bg-primary border-light text-center m-1 p-2">{name}</div>
                       }
                     })}
                   </div>

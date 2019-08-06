@@ -52,7 +52,7 @@ export default function EducationComponent(props){
     });
 
     return (
-      <section id="education" className="content-section highlight-primary-1">
+      <section id="education" className="content-section">
         <div className="py-3">
           <div className="container">
           {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }
