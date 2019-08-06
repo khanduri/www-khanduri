@@ -60,11 +60,13 @@ function _gen_polygon(key, size, colour, is_thick){
   
   return (
     <div key={key} className={_gen_placement_class()}>
-      <Polygon
-        sides={Math.floor(Math.random() * 4) + 3} 
-        strokeWidth={strokeWidth} 
-        stroke={colour}
-        r={((is_thick)? 30: 40) * scale} />
+      {/* <UpDownWide> */}
+        <Polygon
+          sides={Math.floor(Math.random() * 4) + 3} 
+          strokeWidth={strokeWidth} 
+          stroke={colour}
+          r={((is_thick)? 30: 40) * scale} />
+        {/* </UpDownWide> */}
     </div>
   );
 }
@@ -82,11 +84,13 @@ function _gen_circle(key, size, colour, is_thick){
 
   return (
     <div key={key} className={_gen_placement_class()}>
+      <AnimationBounce>
       <Circle
         strokeWidth={strokeWidth} 
         stroke={thick_colour}
         fill={thick_colour}
         radius={((is_thick)? 2: 4) * scale} />
+      </AnimationBounce>
     </div>
   );
 }
@@ -103,11 +107,13 @@ function _gen_ellipse(key, size, colour, is_thick){
 function _gen_temp(key, colour){
   return (
     <div key={key} className={_gen_placement_class()}>
+      {/* <UpDownWide> */}
       <Polygon
             sides={3} 
             stroke={colour}
             strokeWidth={5} 
             r={90} />
+      {/* </UpDownWide> */}
     </div>
   )
   

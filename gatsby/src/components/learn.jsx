@@ -60,7 +60,7 @@ function ProgressDisplayComponent(props){
                   {current[category].sort(function(a, b){ return -(a[1] - b[1]); }).map(function(topic, i){
                     return (
                       <div key={'progress_'+i} className="progress my-2">
-                        <div className={"progress-bar bg-secondary"} style={{width: topic[1]+"%"}}>{topic[0]}</div>
+                        <div className={"progress-bar bg-primary"} style={{width: topic[1]+"%"}}>{topic[0]}</div>
                       </div>
                     )
                   })}
@@ -83,7 +83,7 @@ export default function LearnComponent(props){
     rows.push(<ProgressDisplayComponent key={'past_interest'} items={past} title={"In the Past"}/>);
 
     return (
-      <section className="content-section highlight-secondary-4">
+      <section id="learn" className="content-section highlight-primary-4">
         <div className="py-3">
             <div className="container">
               {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }

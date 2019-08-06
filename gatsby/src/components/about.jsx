@@ -63,11 +63,12 @@ export default function AboutComponent(props) {
     const about = PRASHANT_ABOUT;
 
     return (
-        <section className="content-section  highlight-secondary-9">
+        <section id="about" className="content-section  highlight-primary-9">
           <div className="py-3">
             <div className="container text-white">
               {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }
-              <h2>About Me</h2>
+
+              <h2 className="text-center">About Me</h2>
               {about.map(function(aboutItem, i){
                 return (<AboutComponentItem items={aboutItem} key={'about_item_' + i}/>)
               })}
