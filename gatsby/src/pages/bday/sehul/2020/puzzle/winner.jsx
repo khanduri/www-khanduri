@@ -16,10 +16,10 @@ export default function Index() {
                 </div>
 
                 <div className="my-5">
-                    Dadaji's mummy and papa know where your gift is! Do you have a photo of them?
+                    Dadaji's mummy and papa (Budhhe Dadaji / Budhhe Dadiji) know where your gift is! Do you have a photo of them?
                 </div>
             </div>
-            
+
         </div>
     </BdayLayout>
   )
