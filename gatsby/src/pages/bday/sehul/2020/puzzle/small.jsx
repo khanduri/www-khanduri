@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby";
 import BdayLayout from "../bday_layout";
 
 
@@ -8,7 +9,7 @@ export default function Index() {
         <div className="">
 
             <div className="">
-                <h1 className="my-1 bg-info text-white"> SMALL winner</h1>
+                <h1 className="my-1 bg-warning text-white"> SMALL winner</h1>
                 
                 <div className="my-5 text-size-3">
                     A <strong>SMALL</strong> gift is under your bed!

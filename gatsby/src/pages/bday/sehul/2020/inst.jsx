@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby";
 import BdayLayout from "./bday_layout";
 
 
@@ -13,7 +14,7 @@ export default function Index() {
             <div className="row my-3 py-3">
                 <div className="col"></div>
                 <div className="col">
-                    <a href="puzzle/1" className="btn btn-success btn-lg">Show me Puzzle 1!</a>
+                    <Link to="bday/sehul/2020/puzzle/1" className="btn btn-success btn-lg">Show me Puzzle 1!</Link>
                 </div>
                 <div className="col"></div>
             </div>

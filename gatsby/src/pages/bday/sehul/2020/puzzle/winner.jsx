@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby";
 import BdayLayout from "../bday_layout";
 
 
@@ -8,7 +9,7 @@ export default function Index() {
         <div className="">
 
             <div className="">
-                <h1 className="my-1 bg-info text-white"> GIFT WINNER!</h1>
+                <h1 className="my-1 bg-success text-white"> GIFT WINNER!</h1>
 
                 <div className="my-5 text-size-5">
                     Congratulation you finished all the puzzels!

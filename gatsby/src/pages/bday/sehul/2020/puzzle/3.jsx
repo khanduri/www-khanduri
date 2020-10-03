@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby";
 import BdayLayout from "../bday_layout";
 
 
@@ -8,7 +9,7 @@ export default function Index() {
         <div className="">
 
             <div className="">
-                <h1 className="my-1 bg-success text-white"> Puzzle 3</h1>
+                <h1 className="my-1 bg-info text-white"> Puzzle 3</h1>
                 <div className="">
                     Follow the <code>INSTRUCTIONS</code> to earn your <kbd>hint</kbd>!
                 </div>
@@ -22,23 +23,23 @@ export default function Index() {
                 </div>
 
             <div className="row my-3 py-3">
-            {/* <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Mercury</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Venus</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Earth</a></div>
-                <div className="col-1"><a href="small" className="p-1 m-1 btn btn-info">Mars</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Jupiter</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Saturn</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Uranus</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Neptune</a></div>
+            {/* <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Mercury</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Venus</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Earth</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/small" className="p-1 m-1 btn btn-info">Mars</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Jupiter</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Saturn</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Uranus</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Neptune</Link></div>
                  */}
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Jupiter</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Earth</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Mercury</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Venus</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Uranus</a></div>
-                <div className="col-1"><a href="small" className="p-1 m-1 btn btn-info">Mars</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Neptune</a></div>
-                <div className="col-1"><a href="wrong" className="p-1 m-1 btn btn-info">Saturn</a></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Jupiter</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Earth</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Mercury</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Venus</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Uranus</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/small" className="p-1 m-1 btn btn-info">Mars</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Neptune</Link></div>
+                <div className="col-1"><Link to="bday/sehul/2020/puzzle/wrong" className="p-1 m-1 btn btn-info">Saturn</Link></div>
             </div>
             </div>
 
