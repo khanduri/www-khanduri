@@ -12,11 +12,11 @@ export default function Index() {
                 <h1 className="my-1 bg-success text-white"> WINNER!</h1>
 
                 <div className="my-5 text-size-5">
-                    Congratulation Vyom! With Sehul bhaiji's help you finished all the tasks!
+                    Congratulations!
                 </div>
 
                 <div className="my-5">
-                    Dadaji's mummy and papa have your gift. Sehul bhaiji can get your gift, if he can find their photos!
+                    Dadaji's mummy and papa may know where Vyom's gift is .. Can Sehul bhaiji please bring Vyom's gift?
                 </div>
             </div>
 
