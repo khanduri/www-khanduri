@@ -23,7 +23,7 @@ export default function Index() {
                 </div>
 
             <div className="row my-3 py-3">
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/winner" className="p-2 m-2 btn btn-info">Get Vyom's Gift!</Link></div>
+                <div className="col"><Link to="bday/vyom/2021/puzzle/winner" className="p-2 m-2 btn btn-info">Get Vyom's Gift!</Link></div>
             </div>
             </div>
 

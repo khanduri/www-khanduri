@@ -21,7 +21,7 @@ export default function Index() {
                 </div>
 
                 <div className="row my-3 py-3">
-                <div className="col-1"><Link to="bday/vyom/2021/puzzle/3" className="p-1 m-1 btn btn-info">Go to next task!</Link></div>
+                <div className="col"><Link to="bday/vyom/2021/puzzle/3" className="p-1 m-1 btn btn-info">Go to next task!</Link></div>
             </div>
 
             {/* <div className="row my-3 py-3">
