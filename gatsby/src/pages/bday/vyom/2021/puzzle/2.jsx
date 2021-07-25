@@ -16,11 +16,11 @@ export default function Index() {
             <div className="container my-5">
                 
                 <div className="my-3 ">  
-                    <code>TASK: Name a fruit that starts with the letter "A" </code>
+                    <code>TASK: Vyom has to name a fruit that starts with the letter "A" </code>
                 </div>
 
                 <div className="row my-3 py-3">
-                <div className="col"><Link to="bday/vyom/2021/puzzle/3" className="p-1 m-1 btn btn-info">Go to next task!</Link></div>
+                <div className="col"><Link to="bday/vyom/2021/puzzle/3" className="p-1 m-1 btn btn-info">Go to the next task!</Link></div>
             </div>
 
             {/* <div className="row my-3 py-3">
