@@ -3,7 +3,7 @@ import Helmet from'react-helmet';
 
 import ClearPageLayout from "../../../common/clear";
 
-import "../../../styles/birthday.css";
+import "../../../styles/birthday.scss";
 
 
 export default function Layout(props) {
@@ -12,7 +12,7 @@ export default function Layout(props) {
     <ClearPageLayout >
       <Helmet>
         <body className={props.body_class || "bday_layout"} />
-        <title>{props.name}'s Birthday</title>
+        <title>It's {props.name}'s Birthday</title>
       </Helmet>
 
     <div className="my-5 container text-center highlight-black-9 rounded text-white">

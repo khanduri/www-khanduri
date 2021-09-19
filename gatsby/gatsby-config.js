@@ -22,5 +22,6 @@ module.exports = {
         crossOrigin: `use-credentials`,
       },
     },
+    `gatsby-plugin-sass`,
   ]
 };
