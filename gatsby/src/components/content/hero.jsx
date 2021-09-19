@@ -12,7 +12,7 @@ export default function HeroComponent(props){
         <div className="container">
           <div className="row">
             <div className="col-md-3">
-              <img className="img-fluid rounded" src="/images/prashant.jpg" alt=""/>
+              <img className="img-fluid " style={{borderRadius: '50%'}} src="/images/prashant.jpg" alt=""/>
             </div>
             <div className="col-md-9">
               <h1 className="display-3">{ profile.name.first } { profile.name.last }</h1>

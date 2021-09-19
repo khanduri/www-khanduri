@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from'react-helmet';
+import "../styles/bootstrap.min.css";
 
 
 export default function ContentLayout(props) {

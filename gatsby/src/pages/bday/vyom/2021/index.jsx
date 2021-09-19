@@ -1,13 +1,11 @@
 import React from "react"
 import { Link } from "gatsby";
-import BdayLayout from "./bday_layout";
-
-import "../../../../styles/birthday.css";
+import BdayLayout from './base';
 
 
 export default function Index() {
   return (
-    <BdayLayout>
+    <BdayLayout body_class="bday_vyom_2021" name="Vyom" link="/bday/vyom/2021">
         <div className="">
           
           <div className="container my-5 text-size-1">
@@ -21,7 +19,7 @@ export default function Index() {
             <div className="row my-3 py-3">
                 <div className="col"></div>
                 <div className="col">
-                  <Link to="bday/vyom/2021/puzzle/1" className="btn btn-success btn-lg">Go to the first Task!</Link>
+                  <Link to="/bday/vyom/2021/puzzle/1" className="btn btn-success btn-lg">Go to the first Task!</Link>
                 </div>
                 <div className="col"></div>
             </div>

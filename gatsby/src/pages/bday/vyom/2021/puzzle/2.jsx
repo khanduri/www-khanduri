@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby";
-import BdayLayout from "../bday_layout";
+import BdayLayout from '../base';
 
 
 export default function Index() {
@@ -20,7 +20,7 @@ export default function Index() {
                 </div>
 
                 <div className="row my-3 py-3">
-                <div className="col"><Link to="bday/vyom/2021/puzzle/3" className="p-1 m-1 btn btn-info">Go to the next task!</Link></div>
+                <div className="col"><Link to="/bday/vyom/2021/puzzle/3" className="p-1 m-1 btn btn-info">Go to the next task!</Link></div>
             </div>
 
             {/* <div className="row my-3 py-3">
