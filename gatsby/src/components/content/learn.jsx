@@ -9,7 +9,7 @@ function ProgressDisplayComponent(props){
 
    return (
       <div className="my-4">
-        <h2 className="text-center">{title}</h2>
+        <h2 className="text-center my-5">{title}</h2>
         <div className="row">
             { Object.keys(current).map(function(category, i){
               return (
@@ -34,10 +34,10 @@ export default function LearnComponent(props){
     var rows = [];
 
     var current = LEARN.current;
-    rows.push(<ProgressDisplayComponent key={"current_interest"} items={current} title={"Current interest"}/>);
+    rows.push(<ProgressDisplayComponent key={"current_interest"} items={current} title={"Current"}/>);
 
     var past = LEARN.past;
-    rows.push(<ProgressDisplayComponent key={'past_interest'} items={past} title={"In the Past"}/>);
+    rows.push(<ProgressDisplayComponent key={'past_interest'} items={past} title={"Past"}/>);
 
     return (
       <section id="learn" className="content-section">

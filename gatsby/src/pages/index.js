@@ -10,6 +10,7 @@ import Navigation from "../components/content/navigation";
 
 import PageLayout from "../common/layout";
 
+import "../styles/main.scss";
 
 export default () => (
   <PageLayout>

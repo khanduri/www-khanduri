@@ -7,7 +7,7 @@ function ExperienceDutyDisplayComponent(props){
 
     var duty = props.items;
     return (
-      <div> - { duty }</div>
+      <div className=""> <i className="fa fa-arrow-right ml-1 mr-2"></i> { duty }</div>
     )
 }
 
@@ -22,13 +22,12 @@ function ExperienceContentDisplayComponent(props){
 
     var team_name = "";
     if (content.team_name){ 
-      team_name = <span>{content.team_name } :</span>;
+      team_name = <span>{content.team_name } </span>;
     }
 
     return (
-      <div className="timeline-body">
-        <br/>
-        <div>
+      <div className="timeline-body ">
+        <div className="mt-4 mb-3 family-code">
         { team_name }
         </div>
         { content.team_desc }

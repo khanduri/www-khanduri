@@ -227,8 +227,8 @@ export const LEARN = {
     ],
     "frameworks": [
       ["gatsby", 70],
-      ["react", 60],
-      ["react native", 60],
+      ["react", 80],
+      ["react native", 70],
       ["expo", 50],
       ["flask", 80]
     ]
