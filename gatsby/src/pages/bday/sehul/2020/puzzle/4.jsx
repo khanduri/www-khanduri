@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby";
-import BdayLayout from "../bday_layout";
+import BdayLayout from './../base';
 
 
 export default function Index() {
@@ -23,15 +23,15 @@ export default function Index() {
                 </div>
 
             <div className="row my-3 py-3">
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Sails a ship</Link></div>
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Draws or paint</Link></div>
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Makes sick people well</Link></div>
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Brings letters</Link></div>
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Grows crops</Link></div>
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Makes clothes</Link></div>
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/winner" className="p-2 m-2 btn btn-info">Flies a spaceship</Link></div>
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Checks teeth</Link></div>
-                <div className="col-4"><Link to="bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Flies an aeroplane</Link></div>
+                <div className="col-4"><Link to="/bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Sails a ship</Link></div>
+                <div className="col-4"><Link to="/bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Draws or paint</Link></div>
+                <div className="col-4"><Link to="/bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Makes sick people well</Link></div>
+                <div className="col-4"><Link to="/bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Brings letters</Link></div>
+                <div className="col-4"><Link to="/bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Grows crops</Link></div>
+                <div className="col-4"><Link to="/bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Makes clothes</Link></div>
+                <div className="col-4"><Link to="/bday/sehul/2020/puzzle/winner" className="p-2 m-2 btn btn-info">Flies a spaceship</Link></div>
+                <div className="col-4"><Link to="/bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Checks teeth</Link></div>
+                <div className="col-4"><Link to="/bday/sehul/2020/puzzle/wrong" className="p-2 m-2 btn btn-info">Flies an aeroplane</Link></div>
             </div>
             </div>
 

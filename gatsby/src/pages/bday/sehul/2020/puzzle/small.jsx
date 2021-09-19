@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby";
-import BdayLayout from "../bday_layout";
+import BdayLayout from './../base';
 
 
 export default function Index() {

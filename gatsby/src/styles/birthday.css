@@ -1,5 +1,5 @@
 .bday_layout{
-    background-image: url("/images/bday/back_02.jpg");
+    /* background-image: url("/images/bday/back_02.jpg"); */
 }
 
 .bday_sehul_2021{
@@ -12,7 +12,12 @@
 }
 
 .bday_sehul_2020{
-    
+    /* background-image: url("https://images.all-free-download.com/images/graphiclarge/summer_party_vector_graphic_556559.jpg"); */
+    /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+
 }
 
 
