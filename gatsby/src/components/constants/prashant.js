@@ -54,9 +54,9 @@ export const EDUCATION = {
 export const EXPERIENCE = [
   {
     "fa_class": "fa fa-spin fa-th-large",
-    "title": "Diffy",
-    "link": "https://github.com/opendiffy/diffy",
-    "loc": "San Fransisco, CA / NCR, India",
+    "title": "SN126 Inc",
+    "link": "https://sn126.com/",
+    "loc": "San Fransisco, CA -- NCR, India",
     "dates": "2018 - current",
     "position": "Co-Founder / CTO",
     "body": [
@@ -64,8 +64,7 @@ export const EXPERIENCE = [
         "team_desc": "An open source tool that allows developers to catch bugs before they are pushed to production",
         "duties": [
           "Define the open core and hosted strategies for Diffy",
-          "Architect the hosted solution with a focus on generating review insights",
-          "Evangelize Diffy at conferences"
+          "Architect the hosted solution with a focus on generating review insights"
         ]
       }
     ]

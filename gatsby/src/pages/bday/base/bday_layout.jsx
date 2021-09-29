@@ -12,17 +12,17 @@ export default function Layout(props) {
     <ClearPageLayout >
       <Helmet>
         <body className={props.body_class || "bday_layout"} />
-        <title>It's {props.name}'s Birthday</title>
+        <title>{props.name}'s Birthday gift hunt</title>
       </Helmet>
 
     <div className="my-5 container text-center highlight-black-9 rounded text-white">
         
         <div className="py-2">
-            <h1 className="my-2">
+            <h1 className="my-2 text-spacing-4">
               Happy <span className="mx-3"></span>Birthday <span className="mx-3"></span>
               {props.name}
             </h1>
-            <a href={props.link} className="my-2 uppercase text-size-2">Gift hunt</a>
+            <a href={props.link} className="my-2 uppercase text-size-4 text-spacing-2">{props.name}'s Gift hunt</a>
         </div>
 
         <div className="my-5">

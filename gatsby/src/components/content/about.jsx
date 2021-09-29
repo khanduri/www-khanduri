@@ -7,7 +7,7 @@ function AboutComponentItem(props){
   var aboutItem = props.items;
 
   if (aboutItem.type == "text"){
-    return (<div className="mx-4 my-5 text-size-1 text-wide-1" dangerouslySetInnerHTML={{__html: aboutItem.content }}></div>)
+    return (<div className="mx-4 my-5 text-size-4 text-wide-1" dangerouslySetInnerHTML={{__html: aboutItem.content }}></div>)
   }
 
   if (aboutItem.type == "list"){
