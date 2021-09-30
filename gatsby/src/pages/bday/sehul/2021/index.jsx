@@ -13,7 +13,7 @@ export default function Index() {
           {/* <div className="my-5 text-size-5">You're a year older so the puzzles are harder!</div> */}
           
           <div className="container my-5">
-            <div className="my-5 text-size-8">Click start when ready!</div>
+            <div className="my-5 text-size-8">Start when ready!</div>
 
             <div className="row my-3 py-3">
                 <div className="col"></div>

@@ -9,7 +9,7 @@ export default function Index() {
         <div className="">
 
             <div className="">
-                <h1 className="mb-5 highlight-primary-2 text-white"> Case 1: Dancing time!</h1>
+                <h1 className="mb-5 white-bt-1-1 text-white"> Case 1: Dancing time!</h1>
                 <div className="">
                     Follow the <code>INSTRUCTIONS</code> to earn your <kbd>hint</kbd>!
                 </div>
@@ -29,6 +29,7 @@ export default function Index() {
                     
                 </div>
 
+            <div className="my-5 white-bt-1-1"></div>
             <div className="row my-3 py-3">
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="m-2 btn text-white btn-primary">01:00</Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="m-2 btn text-white btn-primary">01:30 </Link></div>
@@ -49,7 +50,7 @@ export default function Index() {
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="m-2 btn text-white btn-primary">09:00</Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="m-2 btn text-white btn-primary">09:30 </Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="m-2 btn text-white btn-primary">10:00</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2021/puzzle/2" className="m-2 btn text-white btn-primary">10:30 </Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2021/puzzle/1_win" className="m-2 btn text-white btn-primary">10:30 </Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="m-2 btn text-white btn-primary">11:00</Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="m-2 btn text-white btn-primary">11:30 </Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="m-2 btn text-white btn-primary">12:00</Link></div>

@@ -18,7 +18,7 @@ export default function Layout(props) {
     <div className="my-5 container text-center highlight-black-9 rounded text-white">
         
         <div className="py-2">
-            <h1 className="my-2 text-spacing-4">
+            <h1 className="my-2 text-spacing-4 highlight-primary-2">
               Happy <span className="mx-3"></span>Birthday <span className="mx-3"></span>
               {props.name}
             </h1>

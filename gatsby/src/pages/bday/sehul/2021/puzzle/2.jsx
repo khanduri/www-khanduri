@@ -9,7 +9,7 @@ export default function Index() {
         <div className="">
 
             <div className="">
-                <h1 className="mb-5 highlight-primary-2 text-white"> Case 2: Green inch</h1>
+                <h1 className="mb-5 white-bt-1-1 text-white"> Case 2: Green inch</h1>
                 <div className="">
                     Follow the <code>INSTRUCTIONS</code> to earn your <kbd>hint</kbd>!
                 </div>
@@ -27,12 +27,11 @@ export default function Index() {
                     </p>
                     <code>INSTRUCTION</code>: Colour the hulk image. Oh wait .. we don't have any green.
                 </div>
-
-                {/* <img className="img-fluid rounded" src="/images/bday/sehul/2020/2.png" alt=""/> */}
-
+                
+            <div className="my-5 white-bt-1-1" ></div>
             <div className="row my-3 py-3">
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="text-white m-1 btn btn-primary">15 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2021/puzzle/3" className="text-white m-1 btn btn-primary">10 cm</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2021/puzzle/2_win" className="text-white m-1 btn btn-primary">10 cm</Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="text-white m-1 btn btn-primary">5.5 cm</Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="text-white m-1 btn btn-primary">2.5 cm</Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2021/puzzle/wrong" className="text-white m-1 btn btn-primary">18 cm</Link></div>

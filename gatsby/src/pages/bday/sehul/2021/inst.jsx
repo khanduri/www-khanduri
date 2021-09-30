@@ -8,7 +8,7 @@ export default function Index() {
     <BdayLayout>
         <div className="">
             <div className="my-5 py-2 text-size-5">People around you are hiding <kbd>hints</kbd> required to solve the puzzles. </div>
-            <div className="my-5 py-2 text-size-5">To earn these <kbd>hints</kbd> you'll have to follow the <code>INSTRUCTIONS</code> described on the puzzle.</div>
+            <div className="my-5 py-2 text-size-5">To earn these <kbd>hints</kbd> you'll have to follow the <code>INSTRUCTIONS</code> described in each puzzle.</div>
             <div className="my-5 py-2 text-size-7">Follow all <code>INSTRUCTIONS</code> carefully.</div>
             
             <div className="container my-5">
