@@ -17,37 +17,28 @@ export default function Index() {
             
             <div className="container my-5  text-size-5">
                 {/* 
-                    Act : Learn a magic trick and trick someone!
-                    Ques: ??? - Measure the line .. cut a string of 10 cm length  and a ruler in a box
+                    Act: Learn a magic trick and trick someone!
+                    Ques: Pointing device .. ANS: mouse
                     Prize: Topple
 
-                 */}                
-                <p className="my-5">
-                    Someone in your party is hiding the next <kbd>hint</kbd> .. and their weakness is <span className="strong">a story in HINDI</span>
-                </p>
+                 */}
+                 
                 <div className="my-3 text-size-5">
                     <div className="">
-                    <code>INSTRUCTION</code>: Bring your favorite hindi book and read a paragraph.
-                    </div>
-                    <div className="">
-                    You can pick any book you like or bring your Chacha Chaudhary book and read 2 pages.
+                        <code>INSTRUCTION</code>: Learn a magic trick from Abracadabra magic set and trick someone!
                     </div>
                 </div>
                 
             <div className="my-5 white-bt-1-1" ></div>
             <div className="row my-3 py-3">
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">15 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/3_win" className="text-white m-1 btn btn-primary">10 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">5.5 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">2.5 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">18 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">15.5 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">12.5 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">8 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">5 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">8.5 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">13 cm</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">16 cm</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">Keypad</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">CPU</Link></div>
+                {/* <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">UPS</Link></div> */}
+                {/* <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">Hard Drive</Link></div> */}
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">Monitor</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">Printer</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/3_win" className="text-white m-1 btn btn-primary">Mouse</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">Speaker</Link></div>
             </div>
             </div>
 

@@ -20,41 +20,32 @@ export default function Index() {
                 <div className="my-3 text-size-5">  
                 {/* 
                     Act : Prepare a powerpoint presentation with at least 5 slides on the Space encyclopedia .. Vyom to explain 1 slide
-                    Ques: ??? - Maths .. 6 hundreds  .. 3 tens .. 1 ones    +    5 hundreds .. 2 tens .. 1 ones
+                    Ques: How many states in India?
                     Prize: Abracadabra 
                  */}
-                    <p className="my-5">
-                        Someone in your party is hiding a <kbd>hint</kbd> .. and their weakness is <span className="strong">GREEN HULK</span>
-                    </p>
-                    
                     <div className="">
-                    <code>INSTRUCTION</code>: Colour the hulk and show it to everyone in your party. 
-                    </div>
-                    <div className="">
-                    Oh wait .. we don't have any green colour. Maybe <a target="_blank" href="/images/bday/sehul/2021/colours.jpg" className="">this</a> can help
+                        <code>INSTRUCTION</code>: Pick an interesting topic from the space encyclopedia and prepare a powerpoint presentation with at least 5 slides. You can explian 4 slides and Vyom has to explain 1 slide so make sure to teach him about the topic.
                     </div>
                 </div>
                 
             <div className="my-5 white-bt-1-1" ></div>
             <div className="row my-3 py-3">
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1009</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1134</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1140</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1144</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1145</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1148</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1150</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/2_win" className="p-1 m-1 btn btn-primary text-white">1152</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1154</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1157</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1160</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1164</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1168</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1172</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1174</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1184</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1194</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">1228</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">20</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">21</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">22</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">23</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">24</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">26</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">27</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/2_win" className="p-1 m-1 btn btn-primary text-white">28</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">29</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">30</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">31</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">32</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">33</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">34</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">35</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="p-1 m-1 btn btn-primary text-white">36</Link></div>
             </div>
             </div>
 
