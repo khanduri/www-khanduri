@@ -31,26 +31,26 @@ export default function Index() {
                 
             <div className="my-5 white-bt-1-1" ></div>
             <div className="row my-3 py-3">
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">32</Link></div>
                 <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/4_win" className="text-white m-1 btn btn-primary">100</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">3200</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">320</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/4_win" className="text-white m-1 btn btn-primary">5800</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">1700</Link></div>
 
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">5200</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">58</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">4800</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">48</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">5500</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">55</Link></div>
                 
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
-                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">200</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">550</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">580</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">170</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">480</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">17</Link></div>
+                <div className="col-2"><Link to="/bday/sehul/2022/puzzle/wrong" className="text-white m-1 btn btn-primary">3900</Link></div>
             </div>
             </div>
 

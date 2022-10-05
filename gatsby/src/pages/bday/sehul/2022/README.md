@@ -4,7 +4,7 @@ TODO:
  - 1 gift under sehul bed
  - 2 gift under basement desk
  - 3 gift under dadaji's bed
- - 4 gift in pooja room
+ - 4 gift in skating bag
  - 5 gift in pooja room
 
  - Hint 1: How many family members live in your house (including you)?
