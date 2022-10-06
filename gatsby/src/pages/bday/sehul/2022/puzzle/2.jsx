@@ -24,7 +24,7 @@ export default function Index() {
                     Prize: Abracadabra 
                  */}
                     <div className="">
-                        <code>INSTRUCTION</code>: Pick an interesting topic from the space encyclopedia and prepare a powerpoint presentation with at least 5 slides. You can explian 4 slides and Vyom has to explain 1 slide so make sure to teach him about the topic.
+                        <code>INSTRUCTION</code>: Pick an interesting topic from the space encyclopedia and prepare a powerpoint presentation with at least 5 slides. You and Aavya can explain 4 slides, but Vyom has to explain 1 slide so make sure to teach him about the topic.
                     </div>
                 </div>
                 

@@ -25,7 +25,7 @@ export default function Index() {
 
                 <div className="my-3 text-size-5">
                     <div className="">
-                        <code>INSTRUCTION</code>: Learn and Play a game of Topple with Vyom .. Then gift the game to Vyom!
+                        <code>INSTRUCTION</code>: Learn and Play a game of Topple with Vyom and Aavya .. Now gift Topple to Vyom and Gift Dr Suess To Aavya! Did sharing make you happy?
                     </div>
                 </div>
                 

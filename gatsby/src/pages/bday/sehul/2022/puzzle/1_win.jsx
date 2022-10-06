@@ -12,7 +12,7 @@ export default function Index() {
                 <h1 className="my-1 bg-warning text-black">Solved!</h1>
                 
                 <div className="my-5 text-size-6">
-                    Your <strong>first gift</strong> is where you sleep!
+                    Your <strong>first gift</strong> is near where you sleep!
                 </div>
             </div>
             
