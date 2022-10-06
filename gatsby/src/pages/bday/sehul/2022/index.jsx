@@ -9,8 +9,8 @@ export default function Index() {
       <div className="">
 
           <div className="my-5 text-size-8">Hello Sehul!</div>
-          <div className="my-5 text-size-5">You're a year older so the puzzles are harder and you'll have to work with Vyom!</div>
-          <div className="my-5 text-size-5">Ask Vyom if he is ready to help you.</div>
+          <div className="my-5 text-size-5">You're a year older so the puzzles are harder and you'll have to work with Vyom and Aavya!</div>
+          <div className="my-5 text-size-5">Ask Vyom and Aavya if they are ready to help you.</div>
           
           <div className="container my-5">
             <div className="my-5 text-size-8">Start when ready!</div>

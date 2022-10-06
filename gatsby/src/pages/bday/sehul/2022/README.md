@@ -6,9 +6,20 @@ TODO:
  - 4 gift in skating bag: Chess
  - 5 gift in pooja room: Telescope
 
- - Hint 1: How many family members live in your house (including you)?
- - Hint 2: How many states in India?
- - Hint 3: Something used to point to items and select text on screen. You can click icons with this.
- - Hint 4: -- Collect some rupee coins and update answers
- - Hint 4: How many paise? .. remember .. PAISE!
- - Hint 5: 7 × 5 − (19 + 11 − 23) = 28
+ - Hint 1: 
+    How many family members live in your house (including you)?
+    https://byjus.com/maths/roman-numerals
+
+ - Hint 2: 
+    How many states in India?
+    https://knowindia.india.gov.in/states-uts
+
+ - Hint 3: 
+    Something used to point to items and select text on screen. You can click icons with this.
+
+ - Hint 4: 
+    How many paise? .. remember .. PAISE!
+    https://en.wikipedia.org/wiki/Indian_paisa
+
+ - Hint 5: 
+    7 × 5 − (19 + 11 − 23)
