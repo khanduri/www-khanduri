@@ -8,9 +8,15 @@ function EducationDisplayComponent(props){
     var institute = props.items;
     return (
       <li className="timeline-inverted">
-        <div className="timeline-badge bg-white"><i className="fa fa-graduation-cap"></i></div>
+        <div className="timeline-badge bg-white">
+          {(institute.logo)? <img className="" style={{height: '50px', width: '50px', }} src={institute.logo}></img>: <i className="fa fa-graduation-cap"></i>}
+        </div>
         <div className="timeline-panel">
           <div className="timeline-heading">
+              <a href={institute.link}>
+                {/* <img className="" style={{height: '100px', width: '100px', }} src={institute.logo}></img> */}
+              </a>
+
             <div className="timeline-title"><a href={institute.link}>{ institute.title }</a></div>
             <div className="timeline-dates">{ institute.dates }</div>
             <div className="timeline-location">{ institute.loc }</div>

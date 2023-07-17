@@ -38,7 +38,7 @@ export default function AboutComponent(props) {
     return (
         <section id="about" className="content-section  bg-primary">
           <div className="py-3">
-            <div className="container text-white">
+            <div className="container text-dark">
               {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }
 
               <h2 className="text-center">About Me</h2>

@@ -46,13 +46,15 @@ function ExperienceDisplayComponent(props){
 
    return (
       <li className="timeline-inverted">
-        <div className="timeline-badge bg-white"><i className={work.fa_class }></i></div>
+        <div className="timeline-badge bg-white">
+        {(work.logo)? <img className="" style={{height: '40px', width: '40px', }} src={work.logo}></img>: <i className={work.fa_class }></i>}
+        </div>
         <div className="timeline-panel">
           <div className="timeline-heading">
-            <h6 className="timeline-title"><a href={work.link}>{ work.title }</a></h6>
+            <h6 className="timeline-title"><a className="link" href={work.link}>{ work.title }</a></h6>
             <div className="timeline-location">{ work.loc }</div>
             <div className="timeline-dates">{ work.dates }</div>
-            <div className="timeline-position"><b>{ work.position }</b></div>
+            <div className="timeline-position" style={{fontSize: '1.5em', }}><b>{ work.position }</b></div>
             { rows }
           </div>
         </div>

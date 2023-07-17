@@ -17,7 +17,7 @@ function ProgressDisplayComponent(props){
                   {current[category].sort(function(a, b){ return -(a[1] - b[1]); }).map(function(topic, i){
                     return (
                       <div key={'progress_'+i} className="progress my-2">
-                        <div className={"progress-bar bg-primary"} style={{width: topic[1]+"%"}}>{topic[0]}</div>
+                        <div className={"progress-bar bg-primary text-dark"} style={{width: topic[1]+"%"}}>{topic[0]}</div>
                       </div>
                     )
                   })}

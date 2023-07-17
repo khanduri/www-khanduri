@@ -8,14 +8,14 @@ export default function NavigationComponent(props){
   var rows = [];
   navigation.map(function(section, i){
     if (section != 'profile'){
-      rows.push(<li key={'navigation_'+i} className="nav-item "><a className="link-inv mx-2 uppercase text-wide-2" href={"#"+section}>{section}</a></li>);
+      rows.push(<li key={'navigation_'+i} className="nav-item "><a className="text-dark link-inv mx-2 uppercase text-wide-2" href={"#"+section}>{section}</a></li>);
     }
   });
 
   return (
-    <section id="nav" className="navigation sticky-top">
+    <section id="nav" className="navigation sticky-top  ">
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a className="navbar-brand" href="#top"><i className="fa fa-home mr-2"></i>HOME</a>
+        <a className="navbar-brand text-dark" href="#top"><i className="fa fa-home mr-2"></i>HOME</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

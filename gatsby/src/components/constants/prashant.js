@@ -34,6 +34,7 @@ export const EDUCATION = {
     {
       "title": "University of Southern California",
       "link": "https://viterbischool.usc.edu/",
+      "logo": "/images/prashant/usc.svg",
       "loc": "Los Angeles, CA",
       "course": "Masters in Computer Science",
       "desc": "Specialization in Human Language technology (Applied Artificial Intelligence)",
@@ -42,6 +43,7 @@ export const EDUCATION = {
     {
       "title": "University of Waterloo",
       "link": "https://uwaterloo.ca/electrical-computer-engineering/",
+      "logo": "/images/prashant/university-of-waterloo.svg",
       "loc": "Ontario, Canada",
       "course": "Bachelor in Applied Science – Computer Engineering (Honors)",
       "desc": "Option in Software Engineering",
@@ -54,6 +56,7 @@ export const EDUCATION = {
 export const EXPERIENCE = [
   {
     "fa_class": "fa fa-spin fa-th-large",
+    "logo": "/images/prashant/sn126.svg",
     "title": "SN126 Inc",
     "link": "https://sn126.com/",
     "loc": "San Fransisco, CA -- NCR, India",
@@ -71,6 +74,7 @@ export const EXPERIENCE = [
   },
   {
     "fa_class": "fa fa-credit-card",
+    "logo": "/images/prashant/affirm.svg",
     "title": "Affirm",
     "link": "https://www.affirm.com/",
     "loc": "San Fransisco, CA",
@@ -89,6 +93,7 @@ export const EXPERIENCE = [
   },
   {
     "fa_class": "fa fa-heartbeat",
+    "logo": "/images/prashant/jawbone.png",
     "title": "Jawbone",
     "link": "https://jawbone.com/",
     "loc": "San Fransisco, CA",
@@ -107,6 +112,7 @@ export const EXPERIENCE = [
   },
   {
     "fa_class": "fa fa-comment",
+    "logo": "/images/prashant/hearsay.png",
     "title": "Hearsay Social",
     "link": "https://hearsaysystems.com/",
     "loc": "San Fransisco, CA",
@@ -125,6 +131,7 @@ export const EXPERIENCE = [
   },
   {
     "fa_class": "fab fa-windows",
+    "logo": "/images/prashant/microsoft.svg",
     "title": "Microsoft Inc",
     "link": "https://www.bing.com",
     "loc": "Seattle, WA",
@@ -229,7 +236,7 @@ export const LEARN = {
       ["react", 80],
       ["react native", 70],
       ["expo", 50],
-      ["flask", 80]
+      ["flask", 90]
     ]
   },
   "past": {

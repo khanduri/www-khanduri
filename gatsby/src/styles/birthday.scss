@@ -4,6 +4,23 @@ body {
 .bday_layout{
 }
 
+.bday_vyom_2023 {
+  background-image: url("/images/bday/vyom/2023/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+a {
+  color: #7eff87;
+
+  &:hover {
+    color: #3b9f42;
+  }
+}
+}
+
+
 .bday_sehul_2022 {
   background-image: url("/images/bday/sehul/2022/bg.png");
   -webkit-background-size: cover;
@@ -66,5 +83,5 @@ a {
 
 code {
     font-size: large;
-    // color: #0acc92;
+    color: #ed90d3;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import Helmet from'react-helmet';
 
 import ClearPageLayout from "../../../common/clear";
@@ -17,12 +18,16 @@ export default function Layout(props) {
 
     <div className="my-5 container text-center highlight-black-9 rounded text-white">
         
-        <div className="py-2">
-            <h1 className="my-2 text-spacing-4 highlight-primary-2">
-              Happy <span className="mx-3"></span>Birthday <span className="mx-3"></span>
-              {props.name}
+        <div className="py-2 highlight-light-2 m-2 rounded">
+
+            <h1 className="my-2 text-spacing-4 " style={{fontSize: '4em',}}>
+              Happy <span className="mx-3"></span>
+              Birthday <span className="mx-3"></span>
+              <span className="text-spacing-6"> {props.name}</span>!
             </h1>
-            <a href={props.link} className="my-2 uppercase text-size-4 text-spacing-2">{props.name}'s Gift hunt</a>
+
+            <Link to={props.link} className="pt-3 my-3 uppercase text-size-5 text-spacing-2">{props.name}'s Gift hunt</Link>
+
         </div>
 
         <div className="my-5">

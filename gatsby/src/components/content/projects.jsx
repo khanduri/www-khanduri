@@ -94,7 +94,7 @@ export default function ActivitiesComponent(props){
     return (
       <section id="projects" className="content-section bg-primary">
         <div className="py-3">
-          <div className="container  text-white">
+          <div className="container  text-dark">
             {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }
             
             <h2 className="text-center">Activities</h2>
