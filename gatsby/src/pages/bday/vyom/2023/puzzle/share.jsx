@@ -21,7 +21,7 @@ export default function Index() {
                 </div>
 
             <div className="row my-3 py-3">
-                <div className="col"><Link to={base_link+"/puzzle/winner"} className="p-1 m-1 btn btn-lg btn-info text-size-8 text-white">Get my winner gift!</Link></div>
+                <div className="col"><Link to={base_link+"/puzzle/winner"} style={{fontSize: '2em',}} className="p-1 m-1 btn btn-lg btn-info text-size-8 text-white">Get my winner gift!</Link></div>
             </div>
             </div>
 

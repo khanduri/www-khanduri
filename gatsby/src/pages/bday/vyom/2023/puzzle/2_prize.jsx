@@ -20,7 +20,7 @@ export default function Index() {
                 </div>
 
             <div className="row my-3 py-3">
-                <div className="col"><Link to={base_link+"/puzzle/3"} className="p-1 my-1 mx-5 btn btn-info text-size-8 text-white">Show the next task!</Link></div>
+                <div className="col"><Link to={base_link+"/puzzle/3"} style={{fontSize: '2em',}} className="p-1 my-1 mx-5 btn btn-info text-size-8 text-white">Show the next task!</Link></div>
             </div>
             </div>
 

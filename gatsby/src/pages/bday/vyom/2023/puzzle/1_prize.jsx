@@ -16,11 +16,11 @@ export default function Index() {
             <div className="container my-5">
                 
                 <div className="my-3 text-size-6 ">  
-                    Your prize is under your bed!
+                    Your prize is under the bed where you watch TV!
                 </div>
 
             <div className="row my-3 py-3">
-                <div className="col"><Link to={base_link+"/puzzle/2"} className="p-1 my-1 mx-5 btn btn-info text-size-8 text-white">Show the next task!</Link></div>
+                <div className="col"><Link to={base_link+"/puzzle/2"} style={{fontSize: '2em',}} className="p-1 my-1 mx-5 btn btn-info text-size-8 text-white">Show the next task!</Link></div>
             </div>
             </div>
 
