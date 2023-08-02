@@ -9,7 +9,7 @@ function ProgressDisplayComponent(props){
 
    return (
       <div className="my-4">
-        <h2 className="text-center my-5">{title}</h2>
+        <h5 className="text-center my-5">{title}</h5>
         <div className="row">
             { Object.keys(current).map(function(category, i){
               return (
@@ -41,6 +41,9 @@ export default function LearnComponent(props){
 
     return (
       <section id="learn" className="content-section">
+
+        <h2 className="text-center my-3">{"Skills"}</h2>
+
         <div className="py-3">
             <div className="container">
               {(props.background_density !== undefined)? <BackgroundPolygonComponent density={props.background_density}/>: '' }

@@ -20,8 +20,8 @@ export default () => (
     <div className="slant slant-top-right-primary"></div>
     <About />
     <div className="slant slant-bottom-left-primary"></div>
-    <Learn />
     <Experience />
+    <Learn />
     <div className="slant slant-top-left-primary"></div>
     <Activities />
     <div className="slant slant-bottom-right-primary"></div>

@@ -232,10 +232,9 @@ export const LEARN = {
       ["shell-scripting", 90]
     ],
     "frameworks": [
-      ["gatsby", 70],
-      ["react", 80],
+      ["gatsby", 60],
+      ["react", 75],
       ["react native", 70],
-      ["expo", 50],
       ["flask", 90]
     ]
   },
@@ -258,6 +257,7 @@ export const LEARN = {
       ["django", 80],
       ["angular", 60],
       ["yeoman", 60],
+      ["expo", 50],
       ["code-igniter", 50],
       ["cake-php", 40],
       ["mason", 50]
