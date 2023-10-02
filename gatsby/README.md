@@ -23,6 +23,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```shell
+    nvm use 16.2.0
     cd my-gatsby-site/
     npm run develop
     ```
