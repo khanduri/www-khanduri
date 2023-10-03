@@ -8,22 +8,19 @@ export default function Index() {
   return (
     <BdayLayout>
       <div className="">
-        <div className="">
-          <h1 className="my-1 bg-warning text-black">Solved!</h1>
+        <div className="bday-heading ">Solved!</div>
 
-          <div className="my-5 text-size-6">
-            Your <strong>first gift</strong> is near where you sleep!
-          </div>
+        <div className="my-5 ">
+          <code className="hint">Gift hints</code>: Go to the room where you may
+          find:{" "}
+          <code className="hint">Dream, Pillows, Blanket, Sleep, Bedtime!</code>
         </div>
+      </div>
 
-        <div className="container my-5">
-          <Link
-            to={base_link + "/puzzle/2"}
-            className="p-1 m-2 btn btn-lg btn-warning px-4"
-          >
-            <div className="text-black">Continue to the next task ...</div>
-          </Link>
-        </div>
+      <div className="container my-5 py-5 ">
+        <Link to={base_link + "/puzzle/2"} className=" bday-btn ">
+          Next task ...
+        </Link>
       </div>
     </BdayLayout>
   );

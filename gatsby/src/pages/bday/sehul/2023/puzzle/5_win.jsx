@@ -9,13 +9,13 @@ export default function Index() {
     <BdayLayout>
       <div className="">
         <div className="">
-          <h1 className="my-1 bg-success text-white"> Solved!</h1>
+          <div className="bday-heading ">ALL Solved!</div>
         </div>
 
-        <div className="container my-5 py-5  text-size-6">
-          <div className="my-5 py-5">
-            Dadaji's mummy and papa (Budhhe Dadaji / Budhhe Dadiji) can help you
-            find your gift!
+        <div className="container m-5 p-5  text-size-10">
+          <div className="m-5 p-5">
+            Dadaji's mummy and papa (Budhhe Dadaji / Dadiji) can help you find
+            your gift!
           </div>
         </div>
       </div>

@@ -5,18 +5,43 @@ body {
   font-size: "1em";
 }
 
+.bday {
+  &-btn {
+    font-size: 1em;
+    color: #333 !important;
+    background-color: #d3ed90;
+    padding: 0.8em;
+    border-radius: 0.2em;
+
+    &-option {
+      font-size: 0.8em;
+      background-color: #ede590;
+      padding: 0.4em;
+    }
+  }
+
+  &-heading {
+    font-size: 1.5em;
+    color: #78eb6d;
+    background-color: #333;
+    padding: 0.8em;
+    border-radius: 0.2em;
+  }
+}
+
 .bday_sehul_2023 {
-  background-image: url("/images/bday/sehul/2023/bg.jpg");
+  background-image: url("/images/bday/sehul/2023/bg.svg");
+  // background-image: url("/images/bday/sehul/2023/confetti.svg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
   a {
-    color: #7eff87;
+    color: #d3ed90;
 
     &:hover {
-      color: #3b9f42;
+      color: #7f9056;
     }
   }
 }
@@ -94,5 +119,65 @@ body {
 
 code {
   font-size: large;
-  color: #ed90d3;
+  background-color: #444;
+  padding: 0.2em;
+  border-radius: 0.2em;
+
+  &.inst {
+    color: #ed90d3;
+  }
+  &.hint {
+    color: #d3ed90;
+  }
+}
+
+.confetti {
+  background-image: url("/images/bday/sehul/2023/confetti.svg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.birthday_gradient {
+  border-radius: 0.2em;
+  transition: 0.5s;
+  background-size: 200% auto;
+  background-image: linear-gradient(
+    to right,
+    #ed90d3 0%,
+    #d3ed90 51%,
+    #90edd3 100%
+  );
+  animation: color-gradient 7s linear infinite reverse;
+}
+
+@keyframes color-gradient {
+  0% {
+    background-position: left top;
+  }
+  12.5% {
+    background-position: center top;
+  }
+  25% {
+    background-position: right top;
+  }
+  37.5% {
+    background-position: left center;
+  }
+  50% {
+    background-position: center center;
+  }
+  62.5% {
+    background-position: right center;
+  }
+  75% {
+    background-position: left bottom;
+  }
+  87.5% {
+    background-position: center bottom;
+  }
+  100% {
+    background-position: right bottom;
+  }
 }

@@ -5,126 +5,53 @@ import BdayLayout from "./../base";
 import { base_link, base_class } from "./../constants";
 
 export default function Index() {
+  // Act: Get your fav hindi book and read a paragraph from it. Vyom has to get his fav english book and read a paragraph!
+  // Ques: What is the largest planet in our solar system?
+  // Prize:
+
+  const options = [
+    { link: "/puzzle/wrong", text: "Mercury" },
+    { link: "/puzzle/wrong", text: "Venus" },
+    { link: "/puzzle/wrong", text: "Earth" },
+    { link: "/puzzle/wrong", text: "Mars" },
+    { link: "/puzzle/1_win", text: "Jupiter" },
+    { link: "/puzzle/wrong", text: "Saturn" },
+    { link: "/puzzle/wrong", text: "Uranus" },
+    { link: "/puzzle/wrong", text: "Neptune" },
+  ];
+
   return (
     <BdayLayout>
       <div className="">
         <div className="">
-          <h1 className="mb-5 text-white"> Puzzle 1</h1>
+          <h1 className="mb-5 text-white"> Puzzle ☝</h1>
           <div className="">
-            Follow the <code>INSTRUCTION</code> to earn your <kbd>HINT</kbd>!
+            Follow the <code className="inst">INSTRUCTION</code> to earn your{" "}
+            <code className="hint">HINT</code>!
           </div>
         </div>
 
         <div className="container my-5">
           <div className="my-3 ">
-            {/* 
-                        Act: solve 100+ and 30+ peice puzzle .. Show the solved puzzle to Chacha
-                        Ques: How many family members live in your house (including you). ANS: VII
-                        Prize: Space book
-                    */}
-            <code>INSTRUCTION</code>: Get 2 puzzles from your toy area. You have
-            to solve a 100+ piece puzzle and Vyom has to solve a 30+ piece
-            puzzle. Solve both jigsaw puzzles to win the <kbd>HINT</kbd>
+            <code className="inst">INSTRUCTION</code>: Get your fav hindi book
+            and read a paragraph from it. Vyom has to get his fav english book
+            and read a paragraph as well to earn the{" "}
+            <code className="hint">HINT</code>
           </div>
 
           <div className="my-5 white-bt-1-1"></div>
-          <div className="row my-3 py-3">
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                I
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                II
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                III
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                IV
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                V
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                VI
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/1_win"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                VII
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                VIII
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                IX
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                X
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                XI
-              </Link>
-            </div>
-            <div className="col-2">
-              <Link
-                to={base_link + "/puzzle/wrong"}
-                className="m-2 btn text-dark btn-primary"
-              >
-                XII
-              </Link>
-            </div>
+          <div className="row m-3 py-3">
+            {options.map((option, idx) => (
+              <div key={idx} className="col-2 m-3 ">
+                <Link
+                  to={base_link + option.link}
+                  className=" bday-btn bday-btn-option "
+                  style={{ display: "block" }}
+                >
+                  {option.text}
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       </div>

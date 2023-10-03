@@ -16,17 +16,13 @@ export default function Index() {
         </div>
 
         <div className="container my-5">
-          <div className="my-5 ">Sehul, Are you ready?</div>
+          <div className="my-5 ">Are you ready?</div>
 
           <div className="row my-3 py-3">
             <div className="col"></div>
             <div className="col">
-              <Link
-                to={base_link + "/puzzle/1"}
-                className="btn btn-success p-3 "
-                style={{ fontSize: "1.2em", color: "#223322" }}
-              >
-                Yes .. Show the first task!
+              <Link to={base_link + "/puzzle/1"} className=" bday-btn ">
+                Show the first task!
               </Link>
             </div>
             <div className="col"></div>
