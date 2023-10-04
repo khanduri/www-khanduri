@@ -10,15 +10,14 @@ export default function Index() {
       <div className="">
         <div className="container my-5">
           <div className="py-2 ">
-            Sehul has to complete tasks to win his gifts.{" "}
+            Sehul has to complete tasks to win his gifts. Vyom can help.
           </div>
-          <div className="py-2 ">Vyom can help. </div>
         </div>
 
         <div className="container my-5">
-          <div className="my-5 ">Are you ready?</div>
+          <div className="my-5 py-5 ">Are you ready?</div>
 
-          <div className="row my-3 py-3">
+          <div className="row my-5 py-5">
             <div className="col"></div>
             <div className="col">
               <Link to={base_link + "/puzzle/1"} className=" bday-btn ">

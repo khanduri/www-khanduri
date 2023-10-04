@@ -11,9 +11,11 @@ export default function Index() {
         <div className="bday-heading ">Solved!</div>
 
         <div className="my-5 ">
-          <code className="hint">Gift hints</code>: Go to the room where you may
-          find:{" "}
-          <code className="hint">movie nights, work desk, projector!</code>
+          <code className="hint">Gift hint</code>: What room should you check
+          when you think of ...{" "}
+          <code className="hint">
+            movie nights, work desk, projector, lots of toys!
+          </code>
         </div>
       </div>
 

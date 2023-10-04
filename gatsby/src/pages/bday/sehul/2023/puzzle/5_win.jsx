@@ -9,7 +9,7 @@ export default function Index() {
     <BdayLayout>
       <div className="">
         <div className="">
-          <div className="bday-heading ">ALL Solved!</div>
+          <div className="bday-heading ">Good Job: All puzzels solved!</div>
         </div>
 
         <div className="container m-5 p-5  text-size-10">

@@ -152,32 +152,59 @@ code {
   animation: color-gradient 7s linear infinite reverse;
 }
 
+// @keyframes color-gradient {
+//   0% {
+//     background-position: left;
+//   }
+//   33% {
+//     background-position: center;
+//   }
+//   66% {
+//     background-position: right;
+//   }
+//   100% {
+//     background-position: left;
+//   }
+// }
+
 @keyframes color-gradient {
   0% {
     background-position: left top;
   }
-  12.5% {
+  8.3% {
     background-position: center top;
   }
-  25% {
+  16.6% {
     background-position: right top;
   }
-  37.5% {
+  24.9% {
+    background-position: right center;
+  }
+  33.3% {
+    background-position: center center;
+  }
+  41.6% {
     background-position: left center;
   }
   50% {
-    background-position: center center;
-  }
-  62.5% {
-    background-position: right center;
-  }
-  75% {
     background-position: left bottom;
   }
-  87.5% {
+  58.3% {
     background-position: center bottom;
   }
-  100% {
+  66.6% {
     background-position: right bottom;
+  }
+  74.9% {
+    background-position: right center;
+  }
+  83.3% {
+    background-position: center center;
+  }
+  91.6% {
+    background-position: left center;
+  }
+  100% {
+    background-position: left top;
   }
 }
