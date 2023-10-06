@@ -13,9 +13,7 @@ export default function Index() {
         <div className="my-5 ">
           <code className="hint">Gift hint</code>: What room should you check
           when you think of ...{" "}
-          <code className="hint">
-            Dream, Pillows, Blankets, Sleep, Bedtime!
-          </code>
+          <code className="hint">Bedtime, Sleep, Pillows!</code>
         </div>
       </div>
 

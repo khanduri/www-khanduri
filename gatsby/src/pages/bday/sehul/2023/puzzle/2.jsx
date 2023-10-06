@@ -9,7 +9,7 @@ export default function Index() {
   const title = "Puzzle ✌";
   const instruction =
     "Get any hindi book and read a paragraph from it. Vyom has to get an english book and read a paragraph as well.";
-  const hint_question = "Where do you go to study?";
+  const hint_question = "Where do you go for education?";
   const options = [
     { link: "/puzzle/wrong", text: "कार्यालय" },
     { link: "/puzzle/wrong", text: "बगीचा" },

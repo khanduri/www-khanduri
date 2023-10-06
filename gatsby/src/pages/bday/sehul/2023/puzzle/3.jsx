@@ -8,7 +8,7 @@ export default function Index() {
 
   const title = "Puzzle 🤟";
   const instruction =
-    "Give Vyom a maths test (4 addition questions and 1 subtraction questions) and help him solve it!";
+    "Give Vyom a maths test (4 addition questions, 1 subtraction question) and help him solve it!";
   const hint_question =
     "If you have 60 candies and you want to share them equally among 6 friends, how many candies will each friend get?";
   const options = [
