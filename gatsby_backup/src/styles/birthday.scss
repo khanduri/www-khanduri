@@ -1,0 +1,210 @@
+body {
+}
+
+.bday_layout {
+  font-size: "1em";
+}
+
+.bday {
+  &-btn {
+    font-size: 1em;
+    color: #333 !important;
+    background-color: #d3ed90;
+    padding: 0.8em;
+    border-radius: 0.2em;
+
+    &-option {
+      font-size: 0.8em;
+      background-color: #ede590;
+      padding: 0.4em;
+    }
+  }
+
+  &-heading {
+    font-size: 1.5em;
+    color: #78eb6d;
+    background-color: #333;
+    padding: 0.8em;
+    border-radius: 0.2em;
+  }
+}
+
+.bday_sehul_2023 {
+  background-image: url("/images/bday/sehul/2023/bg.svg");
+  // background-image: url("/images/bday/sehul/2023/confetti.svg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  a {
+    color: #d3ed90;
+
+    &:hover {
+      color: #7f9056;
+    }
+  }
+}
+
+.bday_vyom_2023 {
+  background-image: url("/images/bday/vyom/2023/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  a {
+    color: #7eff87;
+
+    &:hover {
+      color: #3b9f42;
+    }
+  }
+}
+
+.bday_sehul_2022 {
+  background-image: url("/images/bday/sehul/2022/bg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  a {
+    color: #f7535e;
+
+    &:hover {
+      color: #eda4a9;
+    }
+  }
+}
+
+.bday_vyom_2022 {
+  background-image: url("/images/bday/vyom/2022/bg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  a {
+    color: #2a80f0;
+
+    &:hover {
+      color: #72b3e4;
+    }
+  }
+}
+
+.bday_sehul_2021 {
+  background-image: url("/images/bday/sehul/2021/bg_02.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  a {
+    color: #0acc92;
+
+    &:hover {
+      color: #72e4c2;
+    }
+  }
+}
+
+.bday_vyom_2021 {
+  background-image: url("/images/bday/back_02.jpg");
+}
+
+.bday_sehul_2020 {
+}
+
+code {
+  font-size: large;
+  background-color: #444;
+  padding: 0.2em;
+  border-radius: 0.2em;
+
+  &.inst {
+    color: #ed90d3;
+  }
+  &.hint {
+    color: #d3ed90;
+  }
+}
+
+.confetti {
+  background-image: url("/images/bday/sehul/2023/confetti.svg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.birthday_gradient {
+  border-radius: 0.2em;
+  transition: 0.5s;
+  background-size: 200% auto;
+  background-image: linear-gradient(
+    to right,
+    #ed90d3 0%,
+    #d3ed90 51%,
+    #90edd3 100%
+  );
+  animation: color-gradient 7s linear infinite reverse;
+}
+
+// @keyframes color-gradient {
+//   0% {
+//     background-position: left;
+//   }
+//   33% {
+//     background-position: center;
+//   }
+//   66% {
+//     background-position: right;
+//   }
+//   100% {
+//     background-position: left;
+//   }
+// }
+
+@keyframes color-gradient {
+  0% {
+    background-position: left top;
+  }
+  8.3% {
+    background-position: center top;
+  }
+  16.6% {
+    background-position: right top;
+  }
+  24.9% {
+    background-position: right center;
+  }
+  33.3% {
+    background-position: center center;
+  }
+  41.6% {
+    background-position: left center;
+  }
+  50% {
+    background-position: left bottom;
+  }
+  58.3% {
+    background-position: center bottom;
+  }
+  66.6% {
+    background-position: right bottom;
+  }
+  74.9% {
+    background-position: right center;
+  }
+  83.3% {
+    background-position: center center;
+  }
+  91.6% {
+    background-position: left center;
+  }
+  100% {
+    background-position: left top;
+  }
+}

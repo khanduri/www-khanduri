@@ -57,11 +57,11 @@ function ExperienceDisplayComponent(props) {
 
   return (
     <li className="timeline-inverted">
-      <div className="timeline-badge bg-white p-1 ">
+      <div className="timeline-badge bg-white">
         {work.logo ? (
           <img
-            className="w-100  h-100"
-            style={{ height: "45px", width: "45px" }}
+            className=""
+            style={{ height: "40px", width: "40px" }}
             src={work.logo}
           ></img>
         ) : (

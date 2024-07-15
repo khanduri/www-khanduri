@@ -1,5 +1,5 @@
 import React from "react";
-// import Helmet from "react-helmet";
+import Helmet from "react-helmet";
 import "../styles/bootstrap.min.css";
 
 export default function ContentLayout(props) {
@@ -9,7 +9,7 @@ export default function ContentLayout(props) {
 
       <div className="content-container">{props.children}</div>
 
-      {/* <Helmet>
+      <Helmet>
         <html lang="en" />
         <meta charSet="utf-8" />
         <meta
@@ -26,7 +26,7 @@ export default function ContentLayout(props) {
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
           crossorigin="anonymous"
         />
-      </Helmet> */}
+      </Helmet>
     </div>
   );
 }

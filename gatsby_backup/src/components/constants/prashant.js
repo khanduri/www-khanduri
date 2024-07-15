@@ -172,7 +172,6 @@ export const EXPERIENCE = [
   },
   {
     fa_class: "fa fa-code",
-    logo: "/images/prashant/intern.svg",
     title: "Internships",
     // loc: "Various Locations",
     dates: "2004 - 2009",
@@ -225,13 +224,13 @@ export const PROFILE = {
   },
   desc: {
     first:
-      "I Build Products - Engineering Expertise, Cross-Department Collaboration, Roadmaping, Budget Management, Scalability Planning, Team Building, Mentor",
-    second: "Currently travelling between San Fransisco, USA 🇺🇸 and New Delhi, India 🇮🇳",
+      "Solutions Architect - building roadmaps, setting objectives, delineating work, forecasting hiring requirements",
+    second: "Currently in New Delhi, India",
   },
   contact: {
     linkedin: "prashantkhanduri",
-    twitter: "khandurip",
     github: "khanduri",
+    twitter: "khandurip",
     facebook: "prashant.khanduri",
   },
 };

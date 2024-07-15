@@ -30,9 +30,7 @@ export default function HeroComponent(props) {
 
             <p className="lead">
               <a className="my-3 btn btn-primary btn-lg" href="#about">
-                {/* <div className="">↓</div> */}
-                <div className="">⇩</div>
-                {/* <i className="animated">↓</i> */}
+                <i className="fa fa-angle-double-down animated"></i>
               </a>
             </p>
           </div>
