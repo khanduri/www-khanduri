@@ -1,6 +1,3 @@
-body {
-}
-
 .bday_layout {
   font-size: "1em";
 }
@@ -27,6 +24,15 @@ body {
     padding: 0.8em;
     border-radius: 0.2em;
   }
+}
+
+.bday_vyom_2024 {
+  background-image: url("/images/bday/vyom/2024/bg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .bday_sehul_2023 {
@@ -141,7 +147,7 @@ code {
 
 .birthday_gradient {
   border-radius: 0.2em;
-  transition: 0.5s;
+  transition: 10.5s;
   background-size: 200% auto;
   background-image: linear-gradient(
     to right,

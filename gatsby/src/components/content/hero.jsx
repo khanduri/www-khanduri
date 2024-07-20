@@ -27,14 +27,12 @@ export default function HeroComponent(props) {
 
             <p className="lead">{profile.desc.first}</p>
             <p>{profile.desc.second}</p>
-
-            <p className="lead">
+            <div className="lead">
               <a className="my-3 btn btn-primary btn-lg" href="#about">
                 {/* <div className="">↓</div> */}
                 <div className="">⇩</div>
-                {/* <i className="animated">↓</i> */}
               </a>
-            </p>
+            </div>
           </div>
         </div>
       </div>
