@@ -20,18 +20,21 @@ export default function Layout(props) {
             className="my-2 text-spacing-4 birthday_gradient p-3 "
             style={{ fontSize: "4em", color: "#333" }}
           >
-            Happy <span className="mx-3"></span>
-            Birthday <span className="mx-3"></span>
-            <span className="text-spacing-6"> {props.name}</span>!
-            {props.head? <img style={{width: '80px', display: "inline"}} className="block-inline img-fluid rounded" src={props.head} alt=""/>: ""}
+            <Link to={props.link} className="text-gray-900">
+              Happy <span className="mx-3"></span>
+              Birthday <span className="mx-3"></span>
+              {props.head ? (
+                <img
+                  style={{ width: "80px", display: "inline" }}
+                  className="block-inline img-fluid rounded"
+                  src={props.head}
+                  alt=""
+                />
+              ) : (
+                <span className="text-spacing-6 uppercase"> {props.name}</span>
+              )}
+            </Link>
           </div>
-          <Link
-            to={props.link}
-            className="pt-3 my-3 uppercase text-size-5 text-spacing-2"
-          >
-            {/* {props.name}'s Gift hunt */}
-            Home
-          </Link>
         </div>
 
         <div className="my-5">
