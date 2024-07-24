@@ -10,7 +10,7 @@ export default function Index() {
   const instruction =
     "Collect 5 animal toys, give them to 5 different people and ask them to make the animal noise.";
   const hint_question =
-    "On this day, sisters tie a sacred thread around their brother's wrist, symbolizing their love, protection, and prayers for their well-being.";
+    "On this day, Ayomi will tie a sacred thread around Vyom's and Sehul's wrist, symbolizing their love, protection, and prayers for their well-being. What day is it?";
   const options = [
     { link: "/puzzle/wrong", text: "Navratri" },
     { link: "/puzzle/wrong", text: "Durga Puja" },

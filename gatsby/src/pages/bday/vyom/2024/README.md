@@ -11,3 +11,7 @@ const HINT_KEY = "tingle tingle";
 const HINT_KEY = "vishwa vijeta";
 const HINT_KEY = "captain poop maker";
 const HINT_KEY = "dhipri man";
+
+- make hint notes .. add numbers
+- final hint note
+- hide prizes

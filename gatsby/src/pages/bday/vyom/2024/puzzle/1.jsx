@@ -10,10 +10,10 @@ export default function Index() {
   const instruction = "Pick your favorite book and read 2 paragraphs.";
   const hint_question = "Who is the Prime Minister of India 🇮🇳 ?";
   const options = [
+    { link: "/puzzle/wrong", text: "Marendra Nodi" },
     { link: "/puzzle/wrong", text: "Mahendra Sodhi" },
     { link: "/puzzle/wrong", text: "Gajendra Jobhi" },
     { link: "/puzzle/wrong", text: "Sabji and Gobhi" },
-    { link: "/puzzle/wrong", text: "Marendra Nodi" },
     { link: "/puzzle/1_win", text: "Narendra Modi" },
   ];
 

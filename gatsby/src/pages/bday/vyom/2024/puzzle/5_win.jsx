@@ -15,7 +15,7 @@ export default function Index() {
         <div className="container m-5 p-5  text-size-10">
           <div className="m-5 p-5">
             Dadaji's mummy and papa (Budhhe Dadaji / Dadiji) can help you find
-            your gift!
+            your final gift!
           </div>
         </div>
       </div>
