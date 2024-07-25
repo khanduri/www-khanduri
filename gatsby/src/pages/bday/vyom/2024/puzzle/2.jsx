@@ -4,7 +4,7 @@ import BdayLayout from "./../base";
 import { base_link, base_class, BDayForm } from "./../constants";
 
 export default function Index() {
-  const HINT_KEY = "tingle tingle";
+  const HINT_KEY = "tingley tingley";
 
   const title = "Puzzle ✌";
   const instruction = "Draw a circle, quare, triangle, cat, ball, sun!";

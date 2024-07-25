@@ -13,7 +13,9 @@ export default function Index() {
         <div className="my-5 ">
           <code className="hint">Gift hint</code>: What room should you check
           when you think of ...{" "}
-          <code className="hint">Bedtime, Sleep, Pillows!</code>
+          <code className="hint">
+            Vyom sitting throughout the entire pooja!
+          </code>
         </div>
       </div>
 
