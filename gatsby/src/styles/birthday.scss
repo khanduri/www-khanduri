@@ -26,13 +26,20 @@
   }
 }
 
+.bday_sehul_2024 {
+  background-image: url("/images/bday/sehul/2024/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .bday_vyom_2024 {
   background-image: url("/images/bday/vyom/2024/bg.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 .bday_sehul_2023 {
@@ -130,10 +137,10 @@ code {
   border-radius: 0.2em;
 
   &.inst {
-    color: #ed90d3;
+    color: #e39eaa;
   }
   &.hint {
-    color: #d3ed90;
+    color: #d2e190;
   }
 }
 
@@ -151,12 +158,16 @@ code {
   background-size: 200% auto;
   background-image: linear-gradient(
     to right,
-    #ed90d3 0%,
-    #d3ed90 51%,
-    #90edd3 100%
+    #76c9d5 0%,
+    #d2e190 51%,
+    #e39eaa 100%
   );
   animation: color-gradient 7s linear infinite reverse;
 }
+
+// #ed90d3 0%,
+// #d3ed90 51%,
+// #90edd3 100%,
 
 // @keyframes color-gradient {
 //   0% {

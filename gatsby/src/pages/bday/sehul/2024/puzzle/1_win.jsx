@@ -1,0 +1,29 @@
+import React from "react";
+import { Link } from "gatsby";
+import BdayLayout from "../base";
+
+import { base_link, base_class } from "./../constants";
+
+export default function Index() {
+  return (
+    <BdayLayout>
+      <div className="">
+        <div className="bday-heading ">Solved!</div>
+
+        <div className="my-5 ">
+          <code className="hint">Gift hint</code>: What room should you check
+          when you think of ...{" "}
+          <code className="hint">
+            Vyom sitting throughout the entire pooja!
+          </code>
+        </div>
+      </div>
+
+      <div className="container my-5 py-5 ">
+        <Link to={base_link + "/puzzle/2"} className=" bday-btn ">
+          Next task ...
+        </Link>
+      </div>
+    </BdayLayout>
+  );
+}
