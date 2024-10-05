@@ -4,24 +4,23 @@ import BdayLayout from "./../base";
 import { base_link, base_class, BDayForm } from "./../constants";
 
 export default function Index() {
-  const HINT_KEY = "captain poop maker";
-
   const title = "Puzzle 🖖";
   const instruction =
-    "Vyom has to draw a superhero and Sehul has to draw a supervillain. Then they have to tell a story about them.";
+    "Tell a fact about Mahatma Gandhi's role in India's independence.";
+  const HINT_KEY = "poopy boys";
+
   const hint_question =
-    "What is the name of the superhero who can swing and crawl / climb walls?";
+    "Which Indian festival celebrates the victory of light over darkness?";
   const options = [
-    { link: "/puzzle/wrong", text: "Superman" },
-    { link: "/puzzle/wrong", text: "Batman" },
-    { link: "/puzzle/4_win", text: "Spider-Man" },
-    { link: "/puzzle/wrong", text: "Wonder Woman" },
-    { link: "/puzzle/wrong", text: "Iron Man" },
-    { link: "/puzzle/wrong", text: "Captain America" },
-    { link: "/puzzle/wrong", text: "The Flash" },
-    { link: "/puzzle/wrong", text: "Black Panther" },
-    { link: "/puzzle/wrong", text: "Thor" },
-    { link: "/puzzle/wrong", text: "Hulk" },
+    { link: "/puzzle/wrong", text: "Holi" },
+    { link: "/puzzle/wrong", text: "Durga Puja" },
+    { link: "/puzzle/wrong", text: "Navratri" },
+    { link: "/puzzle/wrong", text: "Pongal" },
+    { link: "/puzzle/wrong", text: "Onam" },
+    { link: "/puzzle/wrong", text: "Makar Sankranti" },
+    { link: "/puzzle/4_win", text: "Diwali" },
+    { link: "/puzzle/wrong", text: "Raksha Bandhan" },
+    { link: "/puzzle/wrong", text: "Baisakhi" },
   ];
 
   return (
